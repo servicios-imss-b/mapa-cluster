@@ -39,7 +39,7 @@ function HospitalIcon({ size = 18, color = 'currentColor' }: { size?: number; co
 function buildPopupHTML(point: ClusterPoint): string {
   const kind = point.tipo === 'ancla' ? 'Hospital ancla' : 'HBC';
   return `<div style="font-family:system-ui;padding:4px 0;min-width:190px">
-    <div style="font-size:10px;font-weight:800;text-transform:uppercase;color:${escapePopupText(point.cluster_color)}">${kind} · Cluster ${escapePopupText(point.cluster_id)}</div>
+    <div style="font-size:10px;font-weight:800;text-transform:uppercase;color:${escapePopupText(point.cluster_color)}">${kind} · Clúster ${escapePopupText(point.cluster_id)}</div>
     <div style="font-size:13px;font-weight:700;color:#111827;margin-top:5px">${escapePopupText(point.nombre || kind)}</div>
     <div style="font-size:11px;color:#4b5563;margin-top:3px">${escapePopupText(point.clues)}</div>
     ${point.entidad ? `<div style="font-size:10px;color:#9ca3af;margin-top:2px">${escapePopupText(point.entidad)}</div>` : ''}
@@ -72,10 +72,15 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
     return points.filter((point) => point.entidad === selectedEntity);
   }, [points, selectedEntity]);
 
-  const visibleClues = useMemo(() => new Set(visiblePoints.map((point) => point.clues)), [visiblePoints]);
+  const visibleHbcClues = useMemo(() => new Set(
+    visiblePoints.filter((point) => point.tipo === 'hbc').map((point) => point.clues),
+  ), [visiblePoints]);
+  const visibleAnchorClues = useMemo(() => new Set(
+    visiblePoints.filter((point) => point.tipo === 'ancla').map((point) => point.clues),
+  ), [visiblePoints]);
   const visibleRoutes = useMemo(() => routes.filter((route) => (
-    visibleClues.has(route.clues_hbc) && visibleClues.has(route.clues_ancla)
-  )), [routes, visibleClues]);
+    visibleHbcClues.has(route.clues_hbc) && visibleAnchorClues.has(route.clues_ancla)
+  )), [routes, visibleHbcClues, visibleAnchorClues]);
 
   const searchResults = useMemo(() => {
     const normalizedQuery = normalizeSearch(query);
@@ -105,19 +110,39 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left');
 
     const addMarkers = () => {
-      map.getStyle().layers.forEach((layer) => {
+      const styleLayers = map.getStyle().layers ?? [];
+      styleLayers.forEach((layer) => {
         if (layer.type !== 'symbol') return;
         const textField = layer.layout?.['text-field'];
         if (!textField || !JSON.stringify(textField).includes('name_en')) return;
 
         map.setLayoutProperty(layer.id, 'text-field', [
-          'coalesce',
-          ['get', 'name:es'],
-          ['get', 'name'],
-          ['get', 'name_en'],
+          'case',
+          ['==', ['get', 'name'], 'Belize'],
+          'Belice',
+          [
+            'coalesce',
+            ['get', 'name:es'],
+            ['get', 'name_es'],
+            ['get', 'name'],
+            ['get', 'name_en'],
+          ],
         ]);
       });
 
+      ['label_city', 'label_city_capital'].forEach((layerId) => {
+        if (map.getLayer(layerId)) map.setLayoutProperty(layerId, 'visibility', 'none');
+      });
+      if (map.getLayer('label_state')) {
+        map.setLayoutProperty('label_state', 'text-font', ['Noto Sans Bold']);
+        map.setPaintProperty('label_state', 'text-color', '#176b53');
+        map.setPaintProperty('label_state', 'text-halo-width', 1.5);
+      }
+      if (map.getLayer('boundary_3')) {
+        map.setLayoutProperty('boundary_3', 'visibility', 'none');
+      }
+
+      const stateLabelLayer = styleLayers.find((layer) => layer.id === 'label_state')?.id;
       map.addSource('mexico-state-borders', {
         type: 'geojson',
         data: mexicoStatesUrl,
@@ -131,16 +156,18 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
           'line-width': ['interpolate', ['linear'], ['zoom'], 3, 1.2, 6, 2, 9, 2.8],
           'line-opacity': 0.88,
         },
-      });
+      }, stateLabelLayer);
 
-      const clusterColors = new Map(visiblePoints.map((point) => [point.cluster_id, point.cluster_color]));
+      const visibleHbcByClues = new Map(
+        visiblePoints.filter((point) => point.tipo === 'hbc').map((point) => [point.clues, point]),
+      );
       const routeFeatures = visibleRoutes.flatMap((route) => {
-        const color = clusterColors.get(route.cluster_id);
-        if (!color) return [];
+        const hbc = visibleHbcByClues.get(route.clues_hbc);
+        if (!hbc) return [];
 
         return [{
           type: 'Feature' as const,
-          properties: { color },
+          properties: { color: hbc.cluster_color },
           geometry: {
             type: 'LineString' as const,
             coordinates: route.coordinates,
@@ -169,7 +196,7 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
   visiblePoints.forEach((point) => {
         const element = document.createElement('span');
         element.setAttribute('aria-label', `${point.tipo}: ${point.nombre || point.clues}`);
-        element.title = `${point.tipo === 'ancla' ? 'Ancla' : 'HBC'} · Cluster ${point.cluster_id}`;
+        element.title = `${point.tipo === 'ancla' ? 'Ancla' : 'HBC'} · Clúster ${point.cluster_id}`;
         element.style.display = 'block';
         element.style.cursor = 'pointer';
         if (point.tipo === 'ancla') {
@@ -208,10 +235,10 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
     };
 
     if (map.isStyleLoaded()) addMarkers();
-    else map.on('load', addMarkers);
+    else map.on('style.load', addMarkers);
 
     return () => {
-      map.off('load', addMarkers);
+      map.off('style.load', addMarkers);
       markersRef.current.forEach((marker) => marker.remove());
       markersRef.current.clear();
       mapRef.current = null;
@@ -246,7 +273,7 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
         <article className="stat-card border-amber-600">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm font-medium text-gray-500">Clusters</p>
+              <p className="text-sm font-medium text-gray-500">Clústeres</p>
               <p className="text-3xl font-bold text-gray-900">{clusters.length.toLocaleString('es-MX')}</p>
             </div>
             <Layers className="h-7 w-7 text-amber-700" aria-hidden="true" />
@@ -318,8 +345,8 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
               onChange={(event) => { setQuery(event.target.value); setSearchOpen(true); }}
               onFocus={() => setSearchOpen(true)}
               onBlur={() => window.setTimeout(() => setSearchOpen(false), 150)}
-              placeholder="Buscar CLUES, hospital o cluster"
-              aria-label="Buscar HBC, ancla o cluster"
+              placeholder="Buscar CLUES, hospital o clúster"
+              aria-label="Buscar HBC, ancla o clúster"
               className="w-full border-0 bg-transparent text-sm text-gray-800 outline-none placeholder:text-gray-400"
             />
           </div>
@@ -346,7 +373,7 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
                 )}
                 <span className="min-w-0 flex-1">
                   <span className="block truncate text-sm font-semibold text-gray-800">{point.nombre || point.clues}</span>
-                  <span className="block truncate text-xs text-gray-500">{point.tipo.toUpperCase()} · {point.clues} · Cluster {point.cluster_id}</span>
+                  <span className="block truncate text-xs text-gray-500">{point.tipo.toUpperCase()} · {point.clues} · Clúster {point.cluster_id}</span>
                 </span>
               </button>
             )) : <p className="px-3 py-4 text-center text-sm text-gray-500">Sin coincidencias</p>}
@@ -362,8 +389,8 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
               <MapPin className="h-5 w-5" strokeWidth={2.2} />
             </div>
             <div>
-              <h2 className="text-base font-bold text-gray-800">Clusters HBC y hospitales ancla</h2>
-              <p className="mt-0.5 text-xs text-gray-500">Color por cluster · símbolo por tipo</p>
+              <h2 className="text-base font-bold text-gray-800">Clústeres HBC y hospitales ancla</h2>
+              <p className="mt-0.5 text-xs text-gray-500">Rutas viales entre HBC y ancla</p>
             </div>
           </div>
         </div>
