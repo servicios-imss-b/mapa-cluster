@@ -2,10 +2,17 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Building2, Cross, Layers, MapPin, Search } from 'lucide-react';
 import maplibregl from 'maplibre-gl';
 import { renderToStaticMarkup } from 'react-dom/server';
+import mexicoStatesUrl from '../assets/mexico-states.json?url';
 import type { ClusterPoint, ClusterRoute } from '../types';
 
 function normalizeSearch(value: string): string {
   return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+}
+
+function formatEntityName(value: string): string {
+  return value.toLocaleLowerCase('es-MX')
+    .replace(/(^|\s)(\p{L})/gu, (_match, separator: string, letter: string) => `${separator}${letter.toLocaleUpperCase('es-MX')}`)
+    .replace(/\b(De|Del|La|Las|Los|Y)\b/g, (word) => word.toLocaleLowerCase('es-MX'));
 }
 
 function escapePopupText(value: string): string {
@@ -46,22 +53,23 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
   const markersRef = useRef<Map<string, maplibregl.Marker>>(new Map());
   const [query, setQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
-  const [entityQuery, setEntityQuery] = useState('CHIAPAS');
+  const [entityQuery, setEntityQuery] = useState('');
+  const [entitySearchOpen, setEntitySearchOpen] = useState(false);
   const [selectedEntity, setSelectedEntity] = useState('CHIAPAS');
-
-  useEffect(() => {
-    const timeoutId = window.setTimeout(() => setSelectedEntity(entityQuery), 250);
-    return () => window.clearTimeout(timeoutId);
-  }, [entityQuery]);
 
   const entities = useMemo(() => [...new Set(
     points.map((point) => point.entidad.trim()).filter(Boolean),
   )].sort((left, right) => left.localeCompare(right, 'es-MX')), [points]);
 
+  const matchingEntities = useMemo(() => {
+    const normalizedQuery = normalizeSearch(entityQuery);
+    if (!normalizedQuery) return entities;
+    return entities.filter((entity) => normalizeSearch(entity).includes(normalizedQuery));
+  }, [entities, entityQuery]);
+
   const visiblePoints = useMemo(() => {
-    const normalizedEntity = normalizeSearch(selectedEntity);
-    if (!normalizedEntity) return points;
-    return points.filter((point) => normalizeSearch(point.entidad).includes(normalizedEntity));
+    if (!selectedEntity) return points;
+    return points.filter((point) => point.entidad === selectedEntity);
   }, [points, selectedEntity]);
 
   const visibleClues = useMemo(() => new Set(visiblePoints.map((point) => point.clues)), [visiblePoints]);
@@ -97,6 +105,34 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left');
 
     const addMarkers = () => {
+      map.getStyle().layers.forEach((layer) => {
+        if (layer.type !== 'symbol') return;
+        const textField = layer.layout?.['text-field'];
+        if (!textField || !JSON.stringify(textField).includes('name_en')) return;
+
+        map.setLayoutProperty(layer.id, 'text-field', [
+          'coalesce',
+          ['get', 'name:es'],
+          ['get', 'name'],
+          ['get', 'name_en'],
+        ]);
+      });
+
+      map.addSource('mexico-state-borders', {
+        type: 'geojson',
+        data: mexicoStatesUrl,
+      });
+      map.addLayer({
+        id: 'mexico-state-borders',
+        type: 'line',
+        source: 'mexico-state-borders',
+        paint: {
+          'line-color': '#40564f',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 3, 1.2, 6, 2, 9, 2.8],
+          'line-opacity': 0.88,
+        },
+      });
+
       const clusterColors = new Map(visiblePoints.map((point) => [point.cluster_id, point.cluster_color]));
       const routeFeatures = visibleRoutes.flatMap((route) => {
         const color = clusterColors.get(route.cluster_id);
@@ -219,21 +255,59 @@ function ClusterMapSection({ points, routes }: { points: ClusterPoint[]; routes:
       </div>
 
       <div className="relative z-20 grid gap-3 sm:grid-cols-2">
-        <label className="flex min-w-0 items-center gap-3 rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
+        <div className="relative">
+          <label className="flex min-w-0 items-center gap-3 rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
           <MapPin className="h-5 w-5 shrink-0 text-gray-400" aria-hidden="true" />
           <input
             type="search"
-            list="cluster-entities"
-            value={entityQuery}
-            onChange={(event) => setEntityQuery(event.target.value)}
-            placeholder="Todas las entidades"
+            value={entitySearchOpen ? entityQuery : selectedEntity ? formatEntityName(selectedEntity) : ''}
+            onChange={(event) => { setEntityQuery(event.target.value); setEntitySearchOpen(true); }}
+            onFocus={() => { setEntityQuery(''); setEntitySearchOpen(true); }}
+            onBlur={() => window.setTimeout(() => setEntitySearchOpen(false), 150)}
+            placeholder={selectedEntity ? 'Buscar entidad...' : 'Todas las entidades'}
             aria-label="Buscar por entidad"
+            aria-expanded={entitySearchOpen}
+            aria-controls="cluster-entities"
+            autoComplete="off"
             className="w-full border-0 bg-transparent text-sm text-gray-800 outline-none placeholder:text-gray-400"
           />
-          <datalist id="cluster-entities">
-            {entities.map((entity) => <option key={entity} value={entity} />)}
-          </datalist>
-        </label>
+          </label>
+          {entitySearchOpen && (
+            <div id="cluster-entities" className="absolute left-0 right-0 top-full z-30 mt-2 max-h-72 overflow-y-auto rounded-lg border border-gray-200 bg-white p-1.5 shadow-xl">
+              <button
+                type="button"
+                role="option"
+                aria-selected={!selectedEntity}
+                onMouseDown={(event) => event.preventDefault()}
+                onClick={() => {
+                  setSelectedEntity('');
+                  setEntityQuery('');
+                  setEntitySearchOpen(false);
+                }}
+                className="w-full rounded px-3 py-2 text-left text-sm text-gray-700 hover:bg-gray-50"
+              >
+                Todas las entidades
+              </button>
+              {matchingEntities.length ? matchingEntities.map((entity) => (
+                <button
+                  key={entity}
+                  type="button"
+                  role="option"
+                  aria-selected={entity === selectedEntity}
+                  onMouseDown={(event) => event.preventDefault()}
+                  onClick={() => {
+                    setSelectedEntity(entity);
+                    setEntityQuery('');
+                    setEntitySearchOpen(false);
+                  }}
+                  className="w-full rounded px-3 py-2 text-left text-sm text-gray-700 hover:bg-gray-50"
+                >
+                  {formatEntityName(entity)}
+                </button>
+              )) : <p className="px-3 py-2 text-sm text-gray-500">Sin entidades coincidentes</p>}
+            </div>
+          )}
+        </div>
 
         <div className="relative rounded-lg border border-gray-200 bg-white p-3 shadow-sm">
           <div className="flex items-center gap-3">
