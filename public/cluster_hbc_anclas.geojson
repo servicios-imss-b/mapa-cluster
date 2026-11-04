@@ -1,0 +1,5425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.152894,
+          24.853304
+        ]
+      },
+      "properties": {
+        "id": "ancla-TSIMB001535-72",
+        "tipo": "ancla",
+        "clues": "TSIMB001535",
+        "nombre": "HOSPITAL GENERAL SAN FERNANDO",
+        "entidad": "TAMAULIPAS",
+        "cluster_id": "72",
+        "cluster_color": "#d84166",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.376564,
+          24.056052
+        ]
+      },
+      "properties": {
+        "id": "hbc-TSIMB000012-72",
+        "tipo": "hbc",
+        "clues": "TSIMB000012",
+        "nombre": "HOSPITAL INTEGRAL ABASOLO",
+        "entidad": "TAMAULIPAS",
+        "cluster_id": "72",
+        "cluster_color": "#d84166",
+        "ancla_asociado": "TSIMB001535"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.439963,
+          17.2037724
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB001436-71",
+        "tipo": "ancla",
+        "clues": "GRIMB001436",
+        "nombre": "DR. JUVENTINO RODRÍGUEZ GARCÍA",
+        "entidad": "GUERRERO",
+        "cluster_id": "71",
+        "cluster_color": "#d84172",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.630492,
+          17.220531
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB006370-71",
+        "tipo": "hbc",
+        "clues": "GRIMB006370",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO TECPAN DE GALEANA",
+        "entidad": "GUERRERO",
+        "cluster_id": "71",
+        "cluster_color": "#d84172",
+        "ancla_asociado": "GRIMB001436"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.756274,
+          19.569687
+        ]
+      },
+      "properties": {
+        "id": "ancla-MCIMB002640-70",
+        "tipo": "ancla",
+        "clues": "MCIMB002640",
+        "nombre": "HOSPITAL GENERAL IXTLAHUACA VALENTIN GÓMEZ FARÍAS",
+        "entidad": "MEXICO",
+        "cluster_id": "70",
+        "cluster_color": "#d8417f",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.630538,
+          19.568048
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB012131-70",
+        "tipo": "hbc",
+        "clues": "MCIMB012131",
+        "nombre": "HOSPITAL MUNICIPAL HERMENEGILDO GALEANA JIQUIPILCO",
+        "entidad": "MEXICO",
+        "cluster_id": "70",
+        "cluster_color": "#d8417f",
+        "ancla_asociado": "MCIMB002640"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.129387,
+          19.803249
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB004344-70",
+        "tipo": "hbc",
+        "clues": "MCIMB004344",
+        "nombre": "HOSPITAL IGNACIO LÓPEZ RAYÓN BICENTENARIO",
+        "entidad": "MEXICO",
+        "cluster_id": "70",
+        "cluster_color": "#d8417f",
+        "ancla_asociado": "MCIMB002640"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.457536,
+          15.145903
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB001073-69",
+        "tipo": "ancla",
+        "clues": "CSIMB001073",
+        "nombre": "HOSPITAL GENERAL HUIXTLA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "69",
+        "cluster_color": "#d84198",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.143103,
+          15.656351
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB005524-69",
+        "tipo": "hbc",
+        "clues": "CSIMB005524",
+        "nombre": "H. B. C. DE FRONTERA COMALAPA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "69",
+        "cluster_color": "#d84198",
+        "ancla_asociado": "CSIMB001073"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.276784,
+          15.453841
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB004626-69",
+        "tipo": "hbc",
+        "clues": "CSIMB004626",
+        "nombre": "H. B. C. DEL PORVENIR",
+        "entidad": "CHIAPAS",
+        "cluster_id": "69",
+        "cluster_color": "#d84198",
+        "ancla_asociado": "CSIMB001073"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.211771,
+          15.671412
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB005483-69",
+        "tipo": "hbc",
+        "clues": "CSIMB005483",
+        "nombre": "H. B. C.  DR. RAFAEL ALFARO GONZÁLEZ PIJIJIAPAN",
+        "entidad": "CHIAPAS",
+        "cluster_id": "69",
+        "cluster_color": "#d84198",
+        "ancla_asociado": "CSIMB001073"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0188783,
+          19.5936922
+        ]
+      },
+      "properties": {
+        "id": "ancla-MCIMB009203-68",
+        "tipo": "ancla",
+        "clues": "MCIMB009203",
+        "nombre": "HOSPITAL GENERAL LAS AMÉRICAS",
+        "entidad": "MEXICO",
+        "cluster_id": "68",
+        "cluster_color": "#d841a4",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2308,
+          19.8287
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB002244-68",
+        "tipo": "hbc",
+        "clues": "MCIMB002244",
+        "nombre": "HOSPITAL MUNICIPAL HUEHUETOCA",
+        "entidad": "MEXICO",
+        "cluster_id": "68",
+        "cluster_color": "#d841a4",
+        "ancla_asociado": "MCIMB009203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.971475,
+          19.746403
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB008824-68",
+        "tipo": "hbc",
+        "clues": "MCIMB008824",
+        "nombre": "HOSPITAL MUNICIPAL TECAMAC LIC. CÉSAR CAMACHO QUIROZ",
+        "entidad": "MEXICO",
+        "cluster_id": "68",
+        "cluster_color": "#d841a4",
+        "ancla_asociado": "MCIMB009203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.91381,
+          19.54379
+        ]
+      },
+      "properties": {
+        "id": "ancla-MCIMB012476-67",
+        "tipo": "ancla",
+        "clues": "MCIMB012476",
+        "nombre": "HOSPITAL GENERAL ATENCO “FRANCISCO ALTAMIRANO NÚÑEZ”",
+        "entidad": "MEXICO",
+        "cluster_id": "67",
+        "cluster_color": "#d841b1",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.897241,
+          19.543561
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB010224-67",
+        "tipo": "hbc",
+        "clues": "MCIMB010224",
+        "nombre": "HOSPITAL MUNICIPAL DE CHICONCUAC",
+        "entidad": "MEXICO",
+        "cluster_id": "67",
+        "cluster_color": "#d841b1",
+        "ancla_asociado": "MCIMB012476"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9391,
+          18.8455
+        ]
+      },
+      "properties": {
+        "id": "ancla-MSIMB000292-66",
+        "tipo": "ancla",
+        "clues": "MSIMB000292",
+        "nombre": "HOSPITAL GENERAL DE CUAUTLA",
+        "entidad": "MORELOS",
+        "cluster_id": "66",
+        "cluster_color": "#d841bd",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.8065608,
+          18.6702237
+        ]
+      },
+      "properties": {
+        "id": "hbc-MSIMB002112-66",
+        "tipo": "hbc",
+        "clues": "MSIMB002112",
+        "nombre": "HC DE JONACATEPEC",
+        "entidad": "MORELOS",
+        "cluster_id": "66",
+        "cluster_color": "#d841bd",
+        "ancla_asociado": "MSIMB000292"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.32647,
+          18.61573
+        ]
+      },
+      "properties": {
+        "id": "hbc-MSIMB001820-66",
+        "tipo": "hbc",
+        "clues": "MSIMB001820",
+        "nombre": "HC PUENTE DE IXTLA DR. FERNANDO R. VIZCARRA",
+        "entidad": "MORELOS",
+        "cluster_id": "66",
+        "cluster_color": "#d841bd",
+        "ancla_asociado": "MSIMB000292"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.551917,
+          19.234168
+        ]
+      },
+      "properties": {
+        "id": "ancla-MNIMB003940-65",
+        "tipo": "ancla",
+        "clues": "MNIMB003940",
+        "nombre": "HOSPITAL COMUNITARIO TUZANTLA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "65",
+        "cluster_color": "#d841ca",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.139718,
+          19.0373
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB003952-65",
+        "tipo": "hbc",
+        "clues": "MNIMB003952",
+        "nombre": "HOSPITAL COMUNITARIO CARACUARO-NOCUPETARO",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "65",
+        "cluster_color": "#d841ca",
+        "ancla_asociado": "MNIMB003940"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.551917,
+          19.234168
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB003940-65",
+        "tipo": "hbc",
+        "clues": "MNIMB003940",
+        "nombre": "HOSPITAL COMUNITARIO TUZANTLA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "65",
+        "cluster_color": "#d841ca",
+        "ancla_asociado": "MNIMB003940"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3660201,
+          24.8325414
+        ]
+      },
+      "properties": {
+        "id": "ancla-SLIMB000014-64",
+        "tipo": "ancla",
+        "clues": "SLIMB000014",
+        "nombre": "HOSPITAL GENERAL DE CULIACÁN",
+        "entidad": "SINALOA",
+        "cluster_id": "64",
+        "cluster_color": "#d841d6",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.6830075521,
+          24.7604812517041
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB002184-64",
+        "tipo": "hbc",
+        "clues": "SLIMB002184",
+        "nombre": "HOSPITAL INTEGRAL NAVOLATO",
+        "entidad": "SINALOA",
+        "cluster_id": "64",
+        "cluster_color": "#d841d6",
+        "ancla_asociado": "SLIMB000014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.554903641003,
+          25.3512206475258
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB000241-64",
+        "tipo": "hbc",
+        "clues": "SLIMB000241",
+        "nombre": "HOSPITAL INTEGRAL BADIRAGUATO",
+        "entidad": "SINALOA",
+        "cluster_id": "64",
+        "cluster_color": "#d841d6",
+        "ancla_asociado": "SLIMB000014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.938266,
+          22.164571
+        ]
+      },
+      "properties": {
+        "id": "ancla-SPIMB002970-63",
+        "tipo": "ancla",
+        "clues": "SPIMB002970",
+        "nombre": "HOSPITAL GENERAL DE SOLEDAD DE GRACIANO SÁNCHEZ",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "63",
+        "cluster_color": "#ce41d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.83897,
+          22.63949
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB001804-63",
+        "tipo": "hbc",
+        "clues": "SPIMB001804",
+        "nombre": "HOSPITAL COMUNITARIO VILLA DE ARISTA",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "63",
+        "cluster_color": "#ce41d8",
+        "ancla_asociado": "SPIMB002970"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.72012,
+          22.61885
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB000643-63",
+        "tipo": "hbc",
+        "clues": "SPIMB000643",
+        "nombre": "HOSPITAL COMUNITARIO SALINAS DE HIDALGO",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "63",
+        "cluster_color": "#ce41d8",
+        "ancla_asociado": "SPIMB002970"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.971898,
+          21.65171
+        ]
+      },
+      "properties": {
+        "id": "ancla-ZSIMB000492-62",
+        "tipo": "ancla",
+        "clues": "ZSIMB000492",
+        "nombre": "HOSPITAL COMUNITARIO JALPA (DR CALIXTO MEDINA MEDINA)",
+        "entidad": "ZACATECAS",
+        "cluster_id": "62",
+        "cluster_color": "#c141d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.823375,
+          21.364123
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB000813-62",
+        "tipo": "hbc",
+        "clues": "ZSIMB000813",
+        "nombre": "HOSPITAL COMUNITARIO NOCHISTLÁN DE MEJÍA",
+        "entidad": "ZACATECAS",
+        "cluster_id": "62",
+        "cluster_color": "#c141d8",
+        "ancla_asociado": "ZSIMB000492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.911353,
+          21.86311
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB001233-62",
+        "tipo": "hbc",
+        "clues": "ZSIMB001233",
+        "nombre": "HOSPITAL COMUNITARIO TABASCO",
+        "entidad": "ZACATECAS",
+        "cluster_id": "62",
+        "cluster_color": "#c141d8",
+        "ancla_asociado": "ZSIMB000492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.971898,
+          21.65171
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB000492-62",
+        "tipo": "hbc",
+        "clues": "ZSIMB000492",
+        "nombre": "HOSPITAL COMUNITARIO JALPA (DR CALIXTO MEDINA MEDINA)",
+        "entidad": "ZACATECAS",
+        "cluster_id": "62",
+        "cluster_color": "#c141d8",
+        "ancla_asociado": "ZSIMB000492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.122441,
+          21.38923
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB000620-62",
+        "tipo": "hbc",
+        "clues": "ZSIMB000620",
+        "nombre": "HOSPITAL COMUNITARIO JUCHIPILA",
+        "entidad": "ZACATECAS",
+        "cluster_id": "62",
+        "cluster_color": "#c141d8",
+        "ancla_asociado": "ZSIMB000492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4399338,
+          27.0600812
+        ]
+      },
+      "properties": {
+        "id": "ancla-SRIMB001404-61",
+        "tipo": "ancla",
+        "clues": "SRIMB001404",
+        "nombre": "HOSPITAL GENERAL NAVOJOA",
+        "entidad": "SONORA",
+        "cluster_id": "61",
+        "cluster_color": "#b541d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.29603,
+          27.64722
+        ]
+      },
+      "properties": {
+        "id": "hbc-SRIMB000016-61",
+        "tipo": "hbc",
+        "clues": "SRIMB000016",
+        "nombre": "HOSPITAL COMUNITARIO VICAM SWITCH",
+        "entidad": "SONORA",
+        "cluster_id": "61",
+        "cluster_color": "#b541d8",
+        "ancla_asociado": "SRIMB001404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.943254,
+          27.0263353
+        ]
+      },
+      "properties": {
+        "id": "hbc-SRIMB000050-61",
+        "tipo": "hbc",
+        "clues": "SRIMB000050",
+        "nombre": "HOSPITAL COMUNITARIO ALAMOS",
+        "entidad": "SONORA",
+        "cluster_id": "61",
+        "cluster_color": "#b541d8",
+        "ancla_asociado": "SRIMB001404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.619871,
+          22.778268
+        ]
+      },
+      "properties": {
+        "id": "ancla-ZSIMB002481-60",
+        "tipo": "ancla",
+        "clues": "ZSIMB002481",
+        "nombre": "HOSPITAL GENERAL ZACATECAS LUZ GONZÁLEZ COSIO",
+        "entidad": "ZACATECAS",
+        "cluster_id": "60",
+        "cluster_color": "#a841d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.695306,
+          22.936183
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB001834-60",
+        "tipo": "hbc",
+        "clues": "ZSIMB001834",
+        "nombre": "HOSPITAL COMUNITARIO VÍCTOR ROSALES",
+        "entidad": "ZACATECAS",
+        "cluster_id": "60",
+        "cluster_color": "#a841d8",
+        "ancla_asociado": "ZSIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.364675,
+          22.733816
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB001653-60",
+        "tipo": "hbc",
+        "clues": "ZSIMB001653",
+        "nombre": "HOSPITAL COMUNITARIO TRANCOSO",
+        "entidad": "ZACATECAS",
+        "cluster_id": "60",
+        "cluster_color": "#a841d8",
+        "ancla_asociado": "ZSIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.239395,
+          22.584627
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB000900-60",
+        "tipo": "hbc",
+        "clues": "ZSIMB000900",
+        "nombre": "HOSPITAL COMUNITARIO OJOCALIENTE",
+        "entidad": "ZACATECAS",
+        "cluster_id": "60",
+        "cluster_color": "#a841d8",
+        "ancla_asociado": "ZSIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.341605,
+          23.282257
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB001846-60",
+        "tipo": "hbc",
+        "clues": "ZSIMB001846",
+        "nombre": "HOSPITAL COMUNITARIO VILLA DE COS",
+        "entidad": "ZACATECAS",
+        "cluster_id": "60",
+        "cluster_color": "#a841d8",
+        "ancla_asociado": "ZSIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.912707,
+          23.17238
+        ]
+      },
+      "properties": {
+        "id": "ancla-ZSIMB000113-59",
+        "tipo": "ancla",
+        "clues": "ZSIMB000113",
+        "nombre": "HOSPITAL GENERAL FRESNILLO (DR. JOSÉ HARO ÁVILA)",
+        "entidad": "ZACATECAS",
+        "cluster_id": "59",
+        "cluster_color": "#9041d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.582405,
+          22.775388
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB001320-59",
+        "tipo": "hbc",
+        "clues": "ZSIMB001320",
+        "nombre": "HOSPITAL COMUNITARIO VALPARAÍSO",
+        "entidad": "ZACATECAS",
+        "cluster_id": "59",
+        "cluster_color": "#9041d8",
+        "ancla_asociado": "ZSIMB000113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.65657,
+          23.648572
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB002015-59",
+        "tipo": "hbc",
+        "clues": "ZSIMB002015",
+        "nombre": "HOSPITAL COMUNITARIO SOMBRERETE",
+        "entidad": "ZACATECAS",
+        "cluster_id": "59",
+        "cluster_color": "#9041d8",
+        "ancla_asociado": "ZSIMB000113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.402573,
+          24.291384
+        ]
+      },
+      "properties": {
+        "id": "hbc-ZSIMB000615-59",
+        "tipo": "hbc",
+        "clues": "ZSIMB000615",
+        "nombre": "HOSPITAL COMUNITARIO JUAN ALDAMA",
+        "entidad": "ZACATECAS",
+        "cluster_id": "59",
+        "cluster_color": "#9041d8",
+        "ancla_asociado": "ZSIMB000113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6532851,
+          20.8853311
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB008053-58",
+        "tipo": "ancla",
+        "clues": "VZIMB008053",
+        "nombre": "HOSPITAL GENERAL ÁLAMO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "58",
+        "cluster_color": "#8341d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73672,
+          21.18905
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006180-58",
+        "tipo": "hbc",
+        "clues": "VZIMB006180",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE CERRO AZUL",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "58",
+        "cluster_color": "#8341d8",
+        "ancla_asociado": "VZIMB008053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0081354,
+          20.78478
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006151-58",
+        "tipo": "hbc",
+        "clues": "VZIMB006151",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE LLANO DE EN MEDIO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "58",
+        "cluster_color": "#8341d8",
+        "ancla_asociado": "VZIMB008053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.641344,
+          17.99159
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB007930-57",
+        "tipo": "ancla",
+        "clues": "VZIMB007930",
+        "nombre": "HOSPITAL GENERAL COSOLEACAQUE",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "57",
+        "cluster_color": "#7741d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.503346,
+          17.27782
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006023-57",
+        "tipo": "hbc",
+        "clues": "VZIMB006023",
+        "nombre": "HOSPITAL DE LA COMUNIDAD LA LAGUNA  POBLADO 6",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "57",
+        "cluster_color": "#7741d8",
+        "ancla_asociado": "VZIMB007930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9881051,
+          17.391104
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB002511-57",
+        "tipo": "hbc",
+        "clues": "VZIMB002511",
+        "nombre": "HOSPITAL DE LA COMUNIDAD SUCHILAPAN DEL RÍO. CARMEN BOUZAS DE LÓPEZ ARIAS",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "57",
+        "cluster_color": "#7741d8",
+        "ancla_asociado": "VZIMB007930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.79163,
+          18.14835
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006122-57",
+        "tipo": "hbc",
+        "clues": "VZIMB006122",
+        "nombre": "HOSPITAL COMUNITARIO DE TONALAPAN",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "57",
+        "cluster_color": "#7741d8",
+        "ancla_asociado": "VZIMB007930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.530038,
+          18.0376261
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB007575-56",
+        "tipo": "ancla",
+        "clues": "VZIMB007575",
+        "nombre": "HOSPITAL GENERAL ISLA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "56",
+        "cluster_color": "#6a41d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.714206,
+          18.08058
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB007860-56",
+        "tipo": "hbc",
+        "clues": "VZIMB007860",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE JOSÉ AZUETA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "56",
+        "cluster_color": "#6a41d8",
+        "ancla_asociado": "VZIMB007575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8073,
+          17.8307198
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB003701-56",
+        "tipo": "hbc",
+        "clues": "VZIMB003701",
+        "nombre": "HOSPITAL DE LA COMUNIDAD PLAYA VICENTE",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "56",
+        "cluster_color": "#6a41d8",
+        "ancla_asociado": "VZIMB007575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.208942,
+          18.44315
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB003911-55",
+        "tipo": "ancla",
+        "clues": "VZIMB003911",
+        "nombre": "HOSPITAL GENERAL SAN ANDRÉS TUXTLA. DR. BERNARDO PEÑA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "55",
+        "cluster_color": "#5e41d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.65668,
+          18.61155
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB005171-55",
+        "tipo": "hbc",
+        "clues": "VZIMB005171",
+        "nombre": "HOSPITAL DE LA COMUNIDAD TLACOTALPAN",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "55",
+        "cluster_color": "#5e41d8",
+        "ancla_asociado": "VZIMB003911"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.10131,
+          18.421
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB000691-55",
+        "tipo": "hbc",
+        "clues": "VZIMB000691",
+        "nombre": "HOSPITAL DE LA COMUNIDAD CATEMACO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "55",
+        "cluster_color": "#5e41d8",
+        "ancla_asociado": "VZIMB003911"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7618121,
+          18.770455
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB000254-55",
+        "tipo": "hbc",
+        "clues": "VZIMB000254",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE ALVARADO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "55",
+        "cluster_color": "#5e41d8",
+        "ancla_asociado": "VZIMB003911"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3290431,
+          20.45033
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB003491-54",
+        "tipo": "ancla",
+        "clues": "VZIMB003491",
+        "nombre": "HOSPITAL GENERAL PAPANTLA  DR. JOSÉ BUILL BELENGUER",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "54",
+        "cluster_color": "#5141d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.087017,
+          20.457492
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB001794-54",
+        "tipo": "hbc",
+        "clues": "VZIMB001794",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE GUTIÉRREZ ZAMORA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "54",
+        "cluster_color": "#5141d8",
+        "ancla_asociado": "VZIMB003491"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5482506,
+          20.2771599
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006163-54",
+        "tipo": "hbc",
+        "clues": "VZIMB006163",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE ENTABLADERO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "54",
+        "cluster_color": "#5141d8",
+        "ancla_asociado": "VZIMB003491"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.685380035077,
+          20.4772439631934
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB007416-54",
+        "tipo": "hbc",
+        "clues": "PLIMB007416",
+        "nombre": "HOSPITAL INTEGRAL VENUSTIANO CARRANZA",
+        "entidad": "PUEBLA",
+        "cluster_id": "54",
+        "cluster_color": "#5141d8",
+        "ancla_asociado": "VZIMB003491"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.91991,
+          18.879667
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB000983-53",
+        "tipo": "ancla",
+        "clues": "VZIMB000983",
+        "nombre": "HOSPITAL GENERAL CORDOBA YANGA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "53",
+        "cluster_color": "#4541d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.695889,
+          18.61596
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006146-53",
+        "tipo": "hbc",
+        "clues": "VZIMB006146",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE TEZONAPA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "53",
+        "cluster_color": "#4541d8",
+        "ancla_asociado": "VZIMB000983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8641611212409,
+          18.4747572292492
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004143-53",
+        "tipo": "hbc",
+        "clues": "PLIMB004143",
+        "nombre": "HOSPITAL COMUNITARIO TLACOTEPEC DE PORFIRÍO DÍAZ",
+        "entidad": "PUEBLA",
+        "cluster_id": "53",
+        "cluster_color": "#4541d8",
+        "ancla_asociado": "VZIMB000983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.129061,
+          18.59226
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB006134-53",
+        "tipo": "hbc",
+        "clues": "VZIMB006134",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE TLAQUILPAN VISTA HERMOSA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "53",
+        "cluster_color": "#4541d8",
+        "ancla_asociado": "VZIMB000983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.42419,
+          18.1453556
+        ]
+      },
+      "properties": {
+        "id": "ancla-VZIMB000826-52",
+        "tipo": "ancla",
+        "clues": "VZIMB000826",
+        "nombre": "HOSPITAL REGIONAL DE COATZACOALCOS DR.VALENTIN GÓMEZ FARIAS",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "52",
+        "cluster_color": "#4149d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.03992,
+          18.08904
+        ]
+      },
+      "properties": {
+        "id": "hbc-TCIMB005020-52",
+        "tipo": "hbc",
+        "clues": "TCIMB005020",
+        "nombre": "HOSPITAL COMUNITARIO VILLA LA VENTA",
+        "entidad": "TABASCO",
+        "cluster_id": "52",
+        "cluster_color": "#4149d8",
+        "ancla_asociado": "VZIMB000826"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.394587,
+          18.028156
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB002120-52",
+        "tipo": "hbc",
+        "clues": "VZIMB002120",
+        "nombre": "HOSPITAL COMUNITARIO DE IXHUATLAN DEL SURESTE",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "52",
+        "cluster_color": "#4149d8",
+        "ancla_asociado": "VZIMB000826"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.859497,
+          22.253176
+        ]
+      },
+      "properties": {
+        "id": "ancla-TSIMB002520-51",
+        "tipo": "ancla",
+        "clues": "TSIMB002520",
+        "nombre": "HOSPITAL GENERAL DE TAMPICO DR. CARLOS CANSECO",
+        "entidad": "TAMAULIPAS",
+        "cluster_id": "51",
+        "cluster_color": "#4155d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.854925,
+          21.65109
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB003276-51",
+        "tipo": "hbc",
+        "clues": "VZIMB003276",
+        "nombre": "HOSPITAL DE LA COMUNIDAD OZULUAMA DE MASCAREÑAS",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "51",
+        "cluster_color": "#4155d8",
+        "ancla_asociado": "TSIMB002520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.074685,
+          22.919282
+        ]
+      },
+      "properties": {
+        "id": "hbc-TSIMB000082-51",
+        "tipo": "hbc",
+        "clues": "TSIMB000082",
+        "nombre": "HOSPITAL INTEGRAL ALDAMA",
+        "entidad": "TAMAULIPAS",
+        "cluster_id": "51",
+        "cluster_color": "#4155d8",
+        "ancla_asociado": "TSIMB002520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.379061,
+          22.2149444
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB001920-51",
+        "tipo": "hbc",
+        "clues": "SPIMB001920",
+        "nombre": "HOSPITAL COMUNITARIO EBANO",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "51",
+        "cluster_color": "#4155d8",
+        "ancla_asociado": "TSIMB002520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9502222,
+          17.5591667
+        ]
+      },
+      "properties": {
+        "id": "ancla-TCIMB003446-50",
+        "tipo": "ancla",
+        "clues": "TCIMB003446",
+        "nombre": "HOSPITAL GENERAL DE TEAPA DR. NICANDRO L. MELO",
+        "entidad": "TABASCO",
+        "cluster_id": "50",
+        "cluster_color": "#4162d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.8307,
+          17.59361
+        ]
+      },
+      "properties": {
+        "id": "hbc-TCIMB003265-50",
+        "tipo": "hbc",
+        "clues": "TCIMB003265",
+        "nombre": "HOSPITAL COMUNITARIO DE TACOTALPA DR. RAMÓN MEDINA",
+        "entidad": "TABASCO",
+        "cluster_id": "50",
+        "cluster_color": "#4162d8",
+        "ancla_asociado": "TCIMB003446"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.811238,
+          17.37796
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB003926-50",
+        "tipo": "hbc",
+        "clues": "CSIMB003926",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO DE AMATÁN",
+        "entidad": "CHIAPAS",
+        "cluster_id": "50",
+        "cluster_color": "#4162d8",
+        "ancla_asociado": "TCIMB003446"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.782673,
+          17.74121
+        ]
+      },
+      "properties": {
+        "id": "ancla-TCIMB001841-49",
+        "tipo": "ancla",
+        "clues": "TCIMB001841",
+        "nombre": "HOSPITAL GENERAL DE EMILIANO ZAPATA",
+        "entidad": "TABASCO",
+        "cluster_id": "49",
+        "cluster_color": "#417bd8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1283,
+          18.1012
+        ]
+      },
+      "properties": {
+        "id": "hbc-TCIMB005271-49",
+        "tipo": "hbc",
+        "clues": "TCIMB005271",
+        "nombre": "HOSPITAL DR. ARCENIO FILIGRANA ZUBIETA",
+        "entidad": "TABASCO",
+        "cluster_id": "49",
+        "cluster_color": "#417bd8",
+        "ancla_asociado": "TCIMB001841"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.100193,
+          18.255417
+        ]
+      },
+      "properties": {
+        "id": "hbc-CCIMB000942-49",
+        "tipo": "hbc",
+        "clues": "CCIMB000942",
+        "nombre": "HOSPITAL DE PALIZADA",
+        "entidad": "CAMPECHE",
+        "cluster_id": "49",
+        "cluster_color": "#417bd8",
+        "ancla_asociado": "TCIMB001841"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9242407,
+          18.0124021
+        ]
+      },
+      "properties": {
+        "id": "ancla-TCIMB000786-48",
+        "tipo": "ancla",
+        "clues": "TCIMB000786",
+        "nombre": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR. GUSTAVO A. ROVIROSA PÉREZ",
+        "entidad": "TABASCO",
+        "cluster_id": "48",
+        "cluster_color": "#4187d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0166572,
+          18.1662513
+        ]
+      },
+      "properties": {
+        "id": "hbc-TCIMB002961-48",
+        "tipo": "hbc",
+        "clues": "TCIMB002961",
+        "nombre": "HOSPITAL COMUNITARIO DE  NACAJUCA",
+        "entidad": "TABASCO",
+        "cluster_id": "48",
+        "cluster_color": "#4187d8",
+        "ancla_asociado": "TCIMB000786"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.644353,
+          18.54206
+        ]
+      },
+      "properties": {
+        "id": "hbc-TCIMB005505-48",
+        "tipo": "hbc",
+        "clues": "TCIMB005505",
+        "nombre": "HOSPITAL COMUNITARIO DE FRONTERA",
+        "entidad": "TABASCO",
+        "cluster_id": "48",
+        "cluster_color": "#4187d8",
+        "ancla_asociado": "TCIMB000786"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0588698,
+          18.1798199
+        ]
+      },
+      "properties": {
+        "id": "hbc-TCIMB002396-48",
+        "tipo": "hbc",
+        "clues": "TCIMB002396",
+        "nombre": "HOSPITAL COMUNITARIO DE JALPA DE MÈNDEZ",
+        "entidad": "TABASCO",
+        "cluster_id": "48",
+        "cluster_color": "#4187d8",
+        "ancla_asociado": "TCIMB000786"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.003861,
+          29.08175
+        ]
+      },
+      "properties": {
+        "id": "ancla-SRIMB002203-47",
+        "tipo": "ancla",
+        "clues": "SRIMB002203",
+        "nombre": "HOSPITAL GENERAL DEL ESTADO DE SONORA",
+        "entidad": "SONORA",
+        "cluster_id": "47",
+        "cluster_color": "#4194d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9547019,
+          30.6420274
+        ]
+      },
+      "properties": {
+        "id": "hbc-SRIMB002191-47",
+        "tipo": "hbc",
+        "clues": "SRIMB002191",
+        "nombre": "HOSPITAL COMUNITARIO DE MAGDALENA",
+        "entidad": "SONORA",
+        "cluster_id": "47",
+        "cluster_color": "#4194d8",
+        "ancla_asociado": "SRIMB002203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.391015,
+          29.424952
+        ]
+      },
+      "properties": {
+        "id": "hbc-SRIMB001964-47",
+        "tipo": "hbc",
+        "clues": "SRIMB001964",
+        "nombre": "HOSPITAL COMUNITARIO URES",
+        "entidad": "SONORA",
+        "cluster_id": "47",
+        "cluster_color": "#4194d8",
+        "ancla_asociado": "SRIMB002203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.6813356,
+          29.80223
+        ]
+      },
+      "properties": {
+        "id": "hbc-SRIMB001351-47",
+        "tipo": "hbc",
+        "clues": "SRIMB001351",
+        "nombre": "HOSPITAL COMUNITARIO MOCTEZUMA",
+        "entidad": "SONORA",
+        "cluster_id": "47",
+        "cluster_color": "#4194d8",
+        "ancla_asociado": "SRIMB002203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.993798,
+          21.948257
+        ]
+      },
+      "properties": {
+        "id": "ancla-SPIMB000240-46",
+        "tipo": "ancla",
+        "clues": "SPIMB000240",
+        "nombre": "HOSPITAL GENERAL CD. VALLES",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "46",
+        "cluster_color": "#41a0d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.606882,
+          22.39957
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB000170-46",
+        "tipo": "hbc",
+        "clues": "SPIMB000170",
+        "nombre": "HOSPITAL COMUNITARIO CIUDAD DEL MAÍZ",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "46",
+        "cluster_color": "#41a0d8",
+        "ancla_asociado": "SPIMB000240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7888333,
+          22.0141944
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB002801-46",
+        "tipo": "hbc",
+        "clues": "SPIMB002801",
+        "nombre": "HOSPITAL COMUNITARIO DE TAMUIN",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "46",
+        "cluster_color": "#41a0d8",
+        "ancla_asociado": "SPIMB000240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.016046,
+          21.625724
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB000042-46",
+        "tipo": "hbc",
+        "clues": "SPIMB000042",
+        "nombre": "HOSPITAL COMUNITARIO AQUISMON",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "46",
+        "cluster_color": "#41a0d8",
+        "ancla_asociado": "SPIMB000240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.00603,
+          21.37253
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB002813-46",
+        "tipo": "hbc",
+        "clues": "SPIMB002813",
+        "nombre": "HOSPITAL BASICO COMUNITARIO DE XILITLA",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "46",
+        "cluster_color": "#41a0d8",
+        "ancla_asociado": "SPIMB000240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.064039303523,
+          25.4556725775517
+        ]
+      },
+      "properties": {
+        "id": "ancla-SLIMB002930-45",
+        "tipo": "ancla",
+        "clues": "SLIMB002930",
+        "nombre": "HOSPITAL GENERAL DE GUAMUCHIL",
+        "entidad": "SINALOA",
+        "cluster_id": "45",
+        "cluster_color": "#41add8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.229813660639,
+          25.8167060252993
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB001950-45",
+        "tipo": "hbc",
+        "clues": "SLIMB001950",
+        "nombre": "HOSPITAL INTEGRAL DE SINALOA DE LEYVA",
+        "entidad": "SINALOA",
+        "cluster_id": "45",
+        "cluster_color": "#41add8",
+        "ancla_asociado": "SLIMB002930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.156622260733,
+          25.3680800778909
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB000195-45",
+        "tipo": "hbc",
+        "clues": "SLIMB000195",
+        "nombre": "HOSPITAL INTEGRAL ANGOSTURA",
+        "entidad": "SINALOA",
+        "cluster_id": "45",
+        "cluster_color": "#41add8",
+        "ancla_asociado": "SLIMB002930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.922996271639,
+          25.4820096650907
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB001554-45",
+        "tipo": "hbc",
+        "clues": "SLIMB001554",
+        "nombre": "HOSPITAL INTEGRAL MOCORITO",
+        "entidad": "SINALOA",
+        "cluster_id": "45",
+        "cluster_color": "#41add8",
+        "ancla_asociado": "SLIMB002930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.876011265522,
+          23.9336191444425
+        ]
+      },
+      "properties": {
+        "id": "ancla-SLIMB002481-44",
+        "tipo": "ancla",
+        "clues": "SLIMB002481",
+        "nombre": "HOSPITAL GENERAL LA CRUZ",
+        "entidad": "SINALOA",
+        "cluster_id": "44",
+        "cluster_color": "#41b9d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.423158574175,
+          23.9448997319379
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB002464-44",
+        "tipo": "hbc",
+        "clues": "SLIMB002464",
+        "nombre": "HOSPITAL INTEGRAL SAN IGNACIO",
+        "entidad": "SINALOA",
+        "cluster_id": "44",
+        "cluster_color": "#41b9d8",
+        "ancla_asociado": "SLIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.691260405446,
+          24.410257967764
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB000545-44",
+        "tipo": "hbc",
+        "clues": "SLIMB000545",
+        "nombre": "HOSPITAL INTEGRAL COSALA",
+        "entidad": "SINALOA",
+        "cluster_id": "44",
+        "cluster_color": "#41b9d8",
+        "ancla_asociado": "SLIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.15096350485,
+          24.2917257359872
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB002476-44",
+        "tipo": "hbc",
+        "clues": "SLIMB002476",
+        "nombre": "HOSPITAL INTEGRAL VALLE DE SAN LORENZO",
+        "entidad": "SINALOA",
+        "cluster_id": "44",
+        "cluster_color": "#41b9d8",
+        "ancla_asociado": "SLIMB002481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.452453239813,
+          23.2925109540352
+        ]
+      },
+      "properties": {
+        "id": "ancla-SLIMB002254-43",
+        "tipo": "ancla",
+        "clues": "SLIMB002254",
+        "nombre": "HOSPITAL GENERAL DE MAZATLÁN",
+        "entidad": "SINALOA",
+        "cluster_id": "43",
+        "cluster_color": "#41c6d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.066908970046,
+          23.2853281752613
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB000446-43",
+        "tipo": "hbc",
+        "clues": "SLIMB000446",
+        "nombre": "HOSPITAL INTEGRAL CONCORDIA",
+        "entidad": "SINALOA",
+        "cluster_id": "43",
+        "cluster_color": "#41c6d8",
+        "ancla_asociado": "SLIMB002254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.856536802522,
+          22.9948577921669
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB001711-43",
+        "tipo": "hbc",
+        "clues": "SLIMB001711",
+        "nombre": "HOSPITAL INTEGRAL DE EL ROSARIO",
+        "entidad": "SINALOA",
+        "cluster_id": "43",
+        "cluster_color": "#41c6d8",
+        "ancla_asociado": "SLIMB002254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.988940190834,
+          25.7713831115781
+        ]
+      },
+      "properties": {
+        "id": "ancla-SLIMB000031-42",
+        "tipo": "ancla",
+        "clues": "SLIMB000031",
+        "nombre": "HOSPITAL GENERAL LOS MOCHIS",
+        "entidad": "SINALOA",
+        "cluster_id": "42",
+        "cluster_color": "#41d2d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.034681558988,
+          26.2660975597963
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB002242-42",
+        "tipo": "hbc",
+        "clues": "SLIMB002242",
+        "nombre": "HOSPITAL INTEGRAL VALLE DEL CARRIZO",
+        "entidad": "SINALOA",
+        "cluster_id": "42",
+        "cluster_color": "#41d2d8",
+        "ancla_asociado": "SLIMB000031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.323316560665,
+          26.7130567739925
+        ]
+      },
+      "properties": {
+        "id": "hbc-SLIMB000895-42",
+        "tipo": "hbc",
+        "clues": "SLIMB000895",
+        "nombre": "HOSPITAL INTEGRAL CHOIX",
+        "entidad": "SINALOA",
+        "cluster_id": "42",
+        "cluster_color": "#41d2d8",
+        "ancla_asociado": "SLIMB000031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0949994,
+          20.6448025
+        ]
+      },
+      "properties": {
+        "id": "ancla-QRIMB001956-41",
+        "tipo": "ancla",
+        "clues": "QRIMB001956",
+        "nombre": "HOSPITAL GENERAL DE PLAYA DEL CARMEN",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "41",
+        "cluster_color": "#41d8d2",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4701068,
+          20.2068579
+        ]
+      },
+      "properties": {
+        "id": "hbc-QRIMB001623-41",
+        "tipo": "hbc",
+        "clues": "QRIMB001623",
+        "nombre": "HOSPITAL IMSS-BIENESTAR TULUM",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "41",
+        "cluster_color": "#41d8d2",
+        "ancla_asociado": "QRIMB001956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4861219,
+          21.105786
+        ]
+      },
+      "properties": {
+        "id": "hbc-QRIMB001285-41",
+        "tipo": "hbc",
+        "clues": "QRIMB001285",
+        "nombre": "HOSPITAL INTEGRAL DE KANTUNILKÍN",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "41",
+        "cluster_color": "#41d8d2",
+        "ancla_asociado": "QRIMB001956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.727023,
+          21.220455
+        ]
+      },
+      "properties": {
+        "id": "hbc-QRIMB001582-41",
+        "tipo": "hbc",
+        "clues": "QRIMB001582",
+        "nombre": "HOSPITAL INTEGRAL DE ISLA MUJERES",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "41",
+        "cluster_color": "#41d8d2",
+        "ancla_asociado": "QRIMB001956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.347433,
+          18.5077
+        ]
+      },
+      "properties": {
+        "id": "ancla-QRIMB001606-40",
+        "tipo": "ancla",
+        "clues": "QRIMB001606",
+        "nombre": "HOSPITAL DE ONCOLOGÍA IMSS-BIENESTAR CHETUMAL",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "40",
+        "cluster_color": "#41d8c6",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.388763,
+          18.6783936
+        ]
+      },
+      "properties": {
+        "id": "hbc-QRIMB000421-40",
+        "tipo": "hbc",
+        "clues": "QRIMB000421",
+        "nombre": "HOSPITAL INTEGRAL DE BACALAR",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "40",
+        "cluster_color": "#41d8c6",
+        "ancla_asociado": "QRIMB001606"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9324957,
+          18.4538848
+        ]
+      },
+      "properties": {
+        "id": "hbc-QRIMB001611-40",
+        "tipo": "hbc",
+        "clues": "QRIMB001611",
+        "nombre": "HOSPITAL IMSS-BIENESTAR NICOLÁS BRAVO",
+        "entidad": "QUINTANA ROO",
+        "cluster_id": "40",
+        "cluster_color": "#41d8c6",
+        "ancla_asociado": "QRIMB001606"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.395938,
+          18.516774
+        ]
+      },
+      "properties": {
+        "id": "hbc-CCIMB001164-40",
+        "tipo": "hbc",
+        "clues": "CCIMB001164",
+        "nombre": "HOSPITAL INTEGRAL XPUJIL",
+        "entidad": "CAMPECHE",
+        "cluster_id": "40",
+        "cluster_color": "#41d8c6",
+        "ancla_asociado": "QRIMB001606"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7141117268165,
+          18.8793149346304
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB007170-39",
+        "tipo": "ancla",
+        "clues": "PLIMB007170",
+        "nombre": "HOSPITAL GENERAL TECAMACHALCO",
+        "entidad": "PUEBLA",
+        "cluster_id": "39",
+        "cluster_color": "#41d8ad",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9475172174336,
+          19.1155883255566
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB005263-39",
+        "tipo": "hbc",
+        "clues": "PLIMB005263",
+        "nombre": "HOSPITAL INTEGRAL ACAJETE-TEPETZALA",
+        "entidad": "PUEBLA",
+        "cluster_id": "39",
+        "cluster_color": "#41d8ad",
+        "ancla_asociado": "PLIMB007170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6316441139886,
+          18.6550709824716
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004085-39",
+        "tipo": "hbc",
+        "clues": "PLIMB004085",
+        "nombre": "HOSPITAL COMUNITARIO TLACOTEPEC DE BENITO JUÁREZ",
+        "entidad": "PUEBLA",
+        "cluster_id": "39",
+        "cluster_color": "#41d8ad",
+        "ancla_asociado": "PLIMB007170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0651325210574,
+          18.5983453288929
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB007095-39",
+        "tipo": "hbc",
+        "clues": "PLIMB007095",
+        "nombre": "HOSPITAL COMUNITARIO ZACAPALA",
+        "entidad": "PUEBLA",
+        "cluster_id": "39",
+        "cluster_color": "#41d8ad",
+        "ancla_asociado": "PLIMB007170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5314913476807,
+          20.0095649813968
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB007112-38",
+        "tipo": "ancla",
+        "clues": "PLIMB007112",
+        "nombre": "HOSPITAL GENERAL DE CUETZALAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "38",
+        "cluster_color": "#41d8a0",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4098384095828,
+          20.0941645133691
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB000351-38",
+        "tipo": "hbc",
+        "clues": "PLIMB000351",
+        "nombre": "HOSPITAL COMUNITARIO DE AYOTOXCO",
+        "entidad": "PUEBLA",
+        "cluster_id": "38",
+        "cluster_color": "#41d8a0",
+        "ancla_asociado": "PLIMB007112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6243352363453,
+          20.0959121468245
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB001121-38",
+        "tipo": "hbc",
+        "clues": "PLIMB001121",
+        "nombre": "HOSPITAL COMUNITARIO HUEHUETLA",
+        "entidad": "PUEBLA",
+        "cluster_id": "38",
+        "cluster_color": "#41d8a0",
+        "ancla_asociado": "PLIMB007112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7212531062222,
+          20.0055208252184
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB003571-38",
+        "tipo": "hbc",
+        "clues": "PLIMB003571",
+        "nombre": "HOSPITAL INTEGRAL ZAPOTITLAN DE MENDEZ",
+        "entidad": "PUEBLA",
+        "cluster_id": "38",
+        "cluster_color": "#41d8a0",
+        "ancla_asociado": "PLIMB007112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0691811760055,
+          20.1863110847965
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB006885-37",
+        "tipo": "ancla",
+        "clues": "PLIMB006885",
+        "nombre": "HOSPITAL GENERAL HUAUCHINANGO",
+        "entidad": "PUEBLA",
+        "cluster_id": "37",
+        "cluster_color": "#41d894",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9651803606496,
+          20.2566168937346
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB005601-37",
+        "tipo": "hbc",
+        "clues": "PLIMB005601",
+        "nombre": "HOSPITAL INTEGRAL DE XICOTEPEC",
+        "entidad": "PUEBLA",
+        "cluster_id": "37",
+        "cluster_color": "#41d894",
+        "ancla_asociado": "PLIMB006885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9288001219192,
+          20.1374007082331
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004020-37",
+        "tipo": "hbc",
+        "clues": "PLIMB004020",
+        "nombre": "HOSPITAL COMUNITARIO TLAOLA",
+        "entidad": "PUEBLA",
+        "cluster_id": "37",
+        "cluster_color": "#41d894",
+        "ancla_asociado": "PLIMB006885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8516762808208,
+          20.5314796123326
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004102-37",
+        "tipo": "hbc",
+        "clues": "PLIMB004102",
+        "nombre": "HOSPITAL COMUNITARIO MECAPALAPA",
+        "entidad": "PUEBLA",
+        "cluster_id": "37",
+        "cluster_color": "#41d894",
+        "ancla_asociado": "PLIMB006885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.068826,
+          20.461626
+        ]
+      },
+      "properties": {
+        "id": "hbc-HGIMB004841-37",
+        "tipo": "hbc",
+        "clues": "HGIMB004841",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO HUEHUETLA",
+        "entidad": "HIDALGO",
+        "cluster_id": "37",
+        "cluster_color": "#41d894",
+        "ancla_asociado": "PLIMB006885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9625843648459,
+          19.9199670423035
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB006103-36",
+        "tipo": "ancla",
+        "clues": "PLIMB006103",
+        "nombre": "HOSPITAL GENERAL DE ZACATLÁN",
+        "entidad": "PUEBLA",
+        "cluster_id": "36",
+        "cluster_color": "#41d887",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8550735167517,
+          20.0071107162239
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB000100-36",
+        "tipo": "hbc",
+        "clues": "PLIMB000100",
+        "nombre": "HOSPITAL COMUNITARIO AHUACATLÁN",
+        "entidad": "PUEBLA",
+        "cluster_id": "36",
+        "cluster_color": "#41d887",
+        "ancla_asociado": "PLIMB006103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8136860399465,
+          19.8186069815448
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB007136-36",
+        "tipo": "hbc",
+        "clues": "PLIMB007136",
+        "nombre": "HOSPITAL COMUNITARIO DE TETELA DE OCAMPO",
+        "entidad": "PUEBLA",
+        "cluster_id": "36",
+        "cluster_color": "#41d887",
+        "ancla_asociado": "PLIMB006103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0564088716219,
+          18.185897994599
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB005012-35",
+        "tipo": "ancla",
+        "clues": "PLIMB005012",
+        "nombre": "HOSPITAL GENERAL DE ACATLÁN DE OSORIO",
+        "entidad": "PUEBLA",
+        "cluster_id": "35",
+        "cluster_color": "#41d87b",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3135008541074,
+          18.1173863170236
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB002492-35",
+        "tipo": "hbc",
+        "clues": "PLIMB002492",
+        "nombre": "HOSPITAL COMUNITARIO TECOMATLAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "35",
+        "cluster_color": "#41d87b",
+        "ancla_asociado": "PLIMB005012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83287689314,
+          18.4510557638318
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB006004-35",
+        "tipo": "hbc",
+        "clues": "PLIMB006004",
+        "nombre": "HOSPITAL COMUNITARIO DR. MIGUEL ANGEL COBOS MARIN",
+        "entidad": "PUEBLA",
+        "cluster_id": "35",
+        "cluster_color": "#41d87b",
+        "ancla_asociado": "PLIMB005012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4195329813241,
+          18.4480425201226
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB002516-33",
+        "tipo": "ancla",
+        "clues": "PLIMB002516",
+        "nombre": "HOSPITAL GENERAL TEHUACAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "33",
+        "cluster_color": "#41d862",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.075311,
+          18.130797
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB009416-33",
+        "tipo": "hbc",
+        "clues": "OCIMB009416",
+        "nombre": "HC TEOTITLÁN DE FLORES MAGÓN",
+        "entidad": "OAXACA",
+        "cluster_id": "33",
+        "cluster_color": "#41d862",
+        "ancla_asociado": "PLIMB002516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4195329813241,
+          18.4480425201226
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB002516-34",
+        "tipo": "ancla",
+        "clues": "PLIMB002516",
+        "nombre": "HOSPITAL GENERAL TEHUACAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "34",
+        "cluster_color": "#41d86e",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2745992417642,
+          18.3791759657035
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004073-34",
+        "tipo": "hbc",
+        "clues": "PLIMB004073",
+        "nombre": "HOSPITAL COMUNITARIO AJALPAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "34",
+        "cluster_color": "#41d86e",
+        "ancla_asociado": "PLIMB002516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1570819319753,
+          18.2680968075377
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB000433-33",
+        "tipo": "hbc",
+        "clues": "PLIMB000433",
+        "nombre": "HOSPITAL COMUNITARIO COXCATLAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "33",
+        "cluster_color": "#41d862",
+        "ancla_asociado": "PLIMB002516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2062242898703,
+          18.5302936481391
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004131-34",
+        "tipo": "hbc",
+        "clues": "PLIMB004131",
+        "nombre": "HOSPITAL COMUNITARIO VICENTE GUERRERO",
+        "entidad": "PUEBLA",
+        "cluster_id": "34",
+        "cluster_color": "#41d86e",
+        "ancla_asociado": "PLIMB002516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0348081073479,
+          18.338067093485
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB003706-33",
+        "tipo": "hbc",
+        "clues": "PLIMB003706",
+        "nombre": "HOSPITAL COMUNITARIO ZOQUITLAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "33",
+        "cluster_color": "#41d862",
+        "ancla_asociado": "PLIMB002516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6802648087673,
+          19.4576439441361
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB001536-32",
+        "tipo": "ancla",
+        "clues": "PLIMB001536",
+        "nombre": "HOSPITAL GENERAL DE LIBRES",
+        "entidad": "PUEBLA",
+        "cluster_id": "32",
+        "cluster_color": "#41d855",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6151535289521,
+          19.5999521081215
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB000602-32",
+        "tipo": "hbc",
+        "clues": "PLIMB000602",
+        "nombre": "HOSPITAL COMUNITARIO CUYOACO",
+        "entidad": "PUEBLA",
+        "cluster_id": "32",
+        "cluster_color": "#41d855",
+        "ancla_asociado": "PLIMB001536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8182622834714,
+          19.6228517364156
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB001285-32",
+        "tipo": "hbc",
+        "clues": "PLIMB001285",
+        "nombre": "HOSPITAL COMUNITARIO  IXTACAMAXTITLAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "32",
+        "cluster_color": "#41d855",
+        "ancla_asociado": "PLIMB001536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7565864414739,
+          19.2480984393999
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004954-32",
+        "tipo": "hbc",
+        "clues": "PLIMB004954",
+        "nombre": "HOSPITAL INTEGRAL SAN JOSÉ CHIAPA",
+        "entidad": "PUEBLA",
+        "cluster_id": "32",
+        "cluster_color": "#41d855",
+        "ancla_asociado": "PLIMB001536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.868414,
+          19.6625
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB007732-32",
+        "tipo": "hbc",
+        "clues": "VZIMB007732",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE NAOLINCO",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "32",
+        "cluster_color": "#41d855",
+        "ancla_asociado": "PLIMB001536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4496218627218,
+          18.9890105693588
+        ]
+      },
+      "properties": {
+        "id": "ancla-PLIMB000626-31",
+        "tipo": "ancla",
+        "clues": "PLIMB000626",
+        "nombre": "HOSPITAL GENERAL CIUDAD SERDÁN",
+        "entidad": "PUEBLA",
+        "cluster_id": "31",
+        "cluster_color": "#41d849",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.509792,
+          18.824774
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB001710-31",
+        "tipo": "hbc",
+        "clues": "PLIMB001710",
+        "nombre": "HOSPITAL COMUNITARIO CUACNOPALAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "31",
+        "cluster_color": "#41d849",
+        "ancla_asociado": "PLIMB000626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3324241706455,
+          19.287557377501
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB004242-31",
+        "tipo": "hbc",
+        "clues": "PLIMB004242",
+        "nombre": "HOSPITAL INTEGRAL GUADALUPE VICTORIA",
+        "entidad": "PUEBLA",
+        "cluster_id": "31",
+        "cluster_color": "#41d849",
+        "ancla_asociado": "PLIMB000626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5376842326134,
+          18.8269626300408
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB005555-31",
+        "tipo": "hbc",
+        "clues": "PLIMB005555",
+        "nombre": "HOSPITAL INTEGRAL PALMAR DE BRAVO",
+        "entidad": "PUEBLA",
+        "cluster_id": "31",
+        "cluster_color": "#41d849",
+        "ancla_asociado": "PLIMB000626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.139892349227,
+          19.2565864836514
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB005794-31",
+        "tipo": "hbc",
+        "clues": "PLIMB005794",
+        "nombre": "HOSPITAL COMUNITARIO QUIMIXTLAN",
+        "entidad": "PUEBLA",
+        "cluster_id": "31",
+        "cluster_color": "#41d849",
+        "ancla_asociado": "PLIMB000626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1374389,
+          18.1124425
+        ]
+      },
+      "properties": {
+        "id": "ancla-OCIMB009660-30",
+        "tipo": "ancla",
+        "clues": "OCIMB009660",
+        "nombre": "HOSPITAL GENERAL DE SAN JUAN BAUTISTA TUXTEPEC",
+        "entidad": "OAXACA",
+        "cluster_id": "30",
+        "cluster_color": "#45d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8855837,
+          18.1202394
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008634-30",
+        "tipo": "hbc",
+        "clues": "OCIMB008634",
+        "nombre": "HC LOMA BONITA",
+        "entidad": "OAXACA",
+        "cluster_id": "30",
+        "cluster_color": "#45d841",
+        "ancla_asociado": "OCIMB009660"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.31399,
+          17.773565
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008803-30",
+        "tipo": "hbc",
+        "clues": "OCIMB008803",
+        "nombre": "HC VALLE NACIONAL",
+        "entidad": "OAXACA",
+        "cluster_id": "30",
+        "cluster_color": "#45d841",
+        "ancla_asociado": "OCIMB009660"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4018,
+          18.2405
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008861-30",
+        "tipo": "hbc",
+        "clues": "OCIMB008861",
+        "nombre": "HC TEMASCAL",
+        "entidad": "OAXACA",
+        "cluster_id": "30",
+        "cluster_color": "#45d841",
+        "ancla_asociado": "OCIMB009660"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.089251,
+          15.8801397
+        ]
+      },
+      "properties": {
+        "id": "ancla-OCIMB008815-29",
+        "tipo": "ancla",
+        "clues": "OCIMB008815",
+        "nombre": "HG PUERTO ESCONDIDO",
+        "entidad": "OAXACA",
+        "cluster_id": "29",
+        "cluster_color": "#5ed841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4153807,
+          15.9898486
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB009100-29",
+        "tipo": "hbc",
+        "clues": "OCIMB009100",
+        "nombre": "HC RÍO GRANDE",
+        "entidad": "OAXACA",
+        "cluster_id": "29",
+        "cluster_color": "#5ed841",
+        "ancla_asociado": "OCIMB008815"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1441745,
+          16.1005772
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008873-29",
+        "tipo": "hbc",
+        "clues": "OCIMB008873",
+        "nombre": "HC SANTOS REYES NOPALA",
+        "entidad": "OAXACA",
+        "cluster_id": "29",
+        "cluster_color": "#5ed841",
+        "ancla_asociado": "OCIMB008815"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2329182,
+          16.2907818
+        ]
+      },
+      "properties": {
+        "id": "ancla-OCIMB007625-28",
+        "tipo": "ancla",
+        "clues": "OCIMB007625",
+        "nombre": "HG TEHUANTEPEC",
+        "entidad": "OAXACA",
+        "cluster_id": "28",
+        "cluster_color": "#6ad841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.984734,
+          16.599669
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008774-28",
+        "tipo": "hbc",
+        "clues": "OCIMB008774",
+        "nombre": "HC NEJAPA DE MADERO",
+        "entidad": "OAXACA",
+        "cluster_id": "28",
+        "cluster_color": "#6ad841",
+        "ancla_asociado": "OCIMB007625"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6663302,
+          16.0188337
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB009561-28",
+        "tipo": "hbc",
+        "clues": "OCIMB009561",
+        "nombre": "HC SAN PEDRO HUAMELULA",
+        "entidad": "OAXACA",
+        "cluster_id": "28",
+        "cluster_color": "#6ad841",
+        "ancla_asociado": "OCIMB007625"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7862,
+          16.8166
+        ]
+      },
+      "properties": {
+        "id": "ancla-OCIMB003133-27",
+        "tipo": "ancla",
+        "clues": "OCIMB003133",
+        "nombre": "HG SAN PABLO HUIXTEPEC DR. MANUEL VELASCO SUÁREZ",
+        "entidad": "OAXACA",
+        "cluster_id": "27",
+        "cluster_color": "#77d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2256,
+          16.5888
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008045-27",
+        "tipo": "hbc",
+        "clues": "OCIMB008045",
+        "nombre": "HC LA PAZ TEOJOMULCO-TEXMELUCAN",
+        "entidad": "OAXACA",
+        "cluster_id": "27",
+        "cluster_color": "#77d841",
+        "ancla_asociado": "OCIMB003133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3861741,
+          16.5149143
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB007864-27",
+        "tipo": "hbc",
+        "clues": "OCIMB007864",
+        "nombre": "HC TLACOTEPEC",
+        "entidad": "OAXACA",
+        "cluster_id": "27",
+        "cluster_color": "#77d841",
+        "ancla_asociado": "OCIMB003133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7181727,
+          17.0820483
+        ]
+      },
+      "properties": {
+        "id": "ancla-OCIMB000881-26",
+        "tipo": "ancla",
+        "clues": "OCIMB000881",
+        "nombre": "HG OAXACA DR. AURELIO VALDIVIESO",
+        "entidad": "OAXACA",
+        "cluster_id": "26",
+        "cluster_color": "#83d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7316562,
+          17.0490405
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB003816-26",
+        "tipo": "hbc",
+        "clues": "OCIMB003816",
+        "nombre": "HC SANTA CATARINA JUQUILA",
+        "entidad": "OAXACA",
+        "cluster_id": "26",
+        "cluster_color": "#83d841",
+        "ancla_asociado": "OCIMB000881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.48986,
+          17.3265975
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB009643-26",
+        "tipo": "hbc",
+        "clues": "OCIMB009643",
+        "nombre": "IXTLÁN DE JUÁREZ",
+        "entidad": "OAXACA",
+        "cluster_id": "26",
+        "cluster_color": "#83d841",
+        "ancla_asociado": "OCIMB000881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.073088,
+          17.053614
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB000386-26",
+        "tipo": "hbc",
+        "clues": "OCIMB000386",
+        "nombre": "HC TAMAZULAPAN",
+        "entidad": "OAXACA",
+        "cluster_id": "26",
+        "cluster_color": "#83d841",
+        "ancla_asociado": "OCIMB000881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.897629,
+          21.5010461
+        ]
+      },
+      "properties": {
+        "id": "ancla-NTIMB001246-25",
+        "tipo": "ancla",
+        "clues": "NTIMB001246",
+        "nombre": "HOSPITAL CIVIL DR. ANTONIO GONZÁLEZ GUEVARA",
+        "entidad": "NAYARIT",
+        "cluster_id": "25",
+        "cluster_color": "#90d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.08296,
+          21.697759
+        ]
+      },
+      "properties": {
+        "id": "hbc-NTIMB002202-25",
+        "tipo": "hbc",
+        "clues": "NTIMB002202",
+        "nombre": "HOSPITAL INTEGRAL PUENTE DE CAMOTLÁN",
+        "entidad": "NAYARIT",
+        "cluster_id": "25",
+        "cluster_color": "#90d841",
+        "ancla_asociado": "NTIMB001246"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.134699,
+          21.189
+        ]
+      },
+      "properties": {
+        "id": "hbc-NTIMB002646-25",
+        "tipo": "hbc",
+        "clues": "NTIMB002646",
+        "nombre": "HOSPITAL BASICO COMUNITARIO LAS VARAS",
+        "entidad": "NAYARIT",
+        "cluster_id": "25",
+        "cluster_color": "#90d841",
+        "ancla_asociado": "NTIMB001246"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2094934,
+          22.1150969
+        ]
+      },
+      "properties": {
+        "id": "ancla-NTIMB000551-24",
+        "tipo": "ancla",
+        "clues": "NTIMB000551",
+        "nombre": "HOSPITAL GENERAL ROSAMORADA",
+        "entidad": "NAYARIT",
+        "cluster_id": "24",
+        "cluster_color": "#9cd841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3119832,
+          21.9470953
+        ]
+      },
+      "properties": {
+        "id": "hbc-NTIMB002745-24",
+        "tipo": "hbc",
+        "clues": "NTIMB002745",
+        "nombre": "HOSPITAL COMUNITARIO TUXPAN",
+        "entidad": "NAYARIT",
+        "cluster_id": "24",
+        "cluster_color": "#9cd841",
+        "ancla_asociado": "NTIMB000551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3677335,
+          22.4898682
+        ]
+      },
+      "properties": {
+        "id": "hbc-NTIMB000020-24",
+        "tipo": "hbc",
+        "clues": "NTIMB000020",
+        "nombre": "HOSPITAL INTEGRAL ACAPONETA",
+        "entidad": "NAYARIT",
+        "cluster_id": "24",
+        "cluster_color": "#9cd841",
+        "ancla_asociado": "NTIMB000551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.450584,
+          22.409665
+        ]
+      },
+      "properties": {
+        "id": "hbc-NTIMB002634-24",
+        "tipo": "hbc",
+        "clues": "NTIMB002634",
+        "nombre": "HOSPITAL BASICO COMUNITARIO DE TECUALA",
+        "entidad": "NAYARIT",
+        "cluster_id": "24",
+        "cluster_color": "#9cd841",
+        "ancla_asociado": "NTIMB000551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5171004,
+          22.256482
+        ]
+      },
+      "properties": {
+        "id": "hbc-NTIMB000510-24",
+        "tipo": "hbc",
+        "clues": "NTIMB000510",
+        "nombre": "HOSPITAL MIXTO JESÚS MARÍA",
+        "entidad": "NAYARIT",
+        "cluster_id": "24",
+        "cluster_color": "#9cd841",
+        "ancla_asociado": "NTIMB000551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.325361,
+          19.064998
+        ]
+      },
+      "properties": {
+        "id": "ancla-MNIMB004734-23",
+        "tipo": "ancla",
+        "clues": "MNIMB004734",
+        "nombre": "HOSPITAL GENERAL APATZINGAN",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "23",
+        "cluster_color": "#a8d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.088395,
+          19.0292562
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB001601-23",
+        "tipo": "hbc",
+        "clues": "MNIMB001601",
+        "nombre": "HOSPITAL INTEGRAL NUEVA ITALIA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "23",
+        "cluster_color": "#a8d841",
+        "ancla_asociado": "MNIMB004734"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.819063,
+          18.950931
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB003981-23",
+        "tipo": "hbc",
+        "clues": "MNIMB003981",
+        "nombre": "HOSPITAL COMUNITARIO LA HUACANA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "23",
+        "cluster_color": "#a8d841",
+        "ancla_asociado": "MNIMB004734"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.201409,
+          17.967018
+        ]
+      },
+      "properties": {
+        "id": "ancla-MNIMB001292-22",
+        "tipo": "ancla",
+        "clues": "MNIMB001292",
+        "nombre": "HOSPITAL GENERAL DE LÁZARO CÁRDENAS \"DRA. ELENA AVILÉS\"",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "22",
+        "cluster_color": "#b5d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.289435,
+          18.35702
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB000230-22",
+        "tipo": "hbc",
+        "clues": "MNIMB000230",
+        "nombre": "HOSPITAL INTEGRAL ARTEAGA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "22",
+        "cluster_color": "#b5d841",
+        "ancla_asociado": "MNIMB001292"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.737815,
+          18.312107
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB002030-22",
+        "tipo": "hbc",
+        "clues": "GRIMB002030",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO COAHUAYUTLA DE GUERRERO",
+        "entidad": "GUERRERO",
+        "cluster_id": "22",
+        "cluster_color": "#b5d841",
+        "ancla_asociado": "MNIMB001292"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.668328,
+          18.81888
+        ]
+      },
+      "properties": {
+        "id": "ancla-MCIMB009174-21",
+        "tipo": "ancla",
+        "clues": "MCIMB009174",
+        "nombre": "HOSPITAL GENERAL IXTAPAN DE LA SAL",
+        "entidad": "MEXICO",
+        "cluster_id": "21",
+        "cluster_color": "#c1d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.640535,
+          18.957221
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB007465-21",
+        "tipo": "hbc",
+        "clues": "MCIMB007465",
+        "nombre": "HOSPITAL MUNICIPAL BICENTENARIO HERMENEGILDO GALEANA VILLA GUERRERO",
+        "entidad": "MEXICO",
+        "cluster_id": "21",
+        "cluster_color": "#c1d841",
+        "ancla_asociado": "MCIMB009174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.766413,
+          18.924836
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB001351-21",
+        "tipo": "hbc",
+        "clues": "MCIMB001351",
+        "nombre": "HOSPITAL  RAMÓN LÓPEZ RAYÓN BICENTENARIO COATEPEC HARINAS",
+        "entidad": "MEXICO",
+        "cluster_id": "21",
+        "cluster_color": "#c1d841",
+        "ancla_asociado": "MCIMB009174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.781158,
+          18.720703
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB009186-21",
+        "tipo": "hbc",
+        "clues": "MCIMB009186",
+        "nombre": "HOSPITAL MUNICIPAL ZACUALPAN",
+        "entidad": "MEXICO",
+        "cluster_id": "21",
+        "cluster_color": "#c1d841",
+        "ancla_asociado": "MCIMB009174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.633094,
+          19.3196
+        ]
+      },
+      "properties": {
+        "id": "ancla-MCIMB009145-20",
+        "tipo": "ancla",
+        "clues": "MCIMB009145",
+        "nombre": "CENTRO MÉDICO LIC. ADOLFO LÓPEZ MATEOS",
+        "entidad": "MEXICO",
+        "cluster_id": "20",
+        "cluster_color": "#ced841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.490306,
+          19.181763
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB000890-20",
+        "tipo": "hbc",
+        "clues": "MCIMB000890",
+        "nombre": "HOSPITAL MUNICIPAL SANTA CRUZ ATIZAPÁN BICENTENARIO",
+        "entidad": "MEXICO",
+        "cluster_id": "20",
+        "cluster_color": "#ced841",
+        "ancla_asociado": "MCIMB009145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.556624,
+          19.421739
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB010842-20",
+        "tipo": "hbc",
+        "clues": "MCIMB010842",
+        "nombre": "SANTA MARÍA TETITLA",
+        "entidad": "MEXICO",
+        "cluster_id": "20",
+        "cluster_color": "#ced841",
+        "ancla_asociado": "MCIMB009145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.6058,
+          19.4678
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB009162-20",
+        "tipo": "hbc",
+        "clues": "MCIMB009162",
+        "nombre": "HOSPITAL MUNICIPAL TEMOAYA",
+        "entidad": "MEXICO",
+        "cluster_id": "20",
+        "cluster_color": "#ced841",
+        "ancla_asociado": "MCIMB009145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.158156,
+          18.90353
+        ]
+      },
+      "properties": {
+        "id": "ancla-MCIMB005225-19",
+        "tipo": "ancla",
+        "clues": "MCIMB005225",
+        "nombre": "HOSPITAL GENERAL MIGUEL HIDALGO Y COSTILLA BICENTENARIO",
+        "entidad": "MEXICO",
+        "cluster_id": "19",
+        "cluster_color": "#d8ca41",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29931,
+          18.92166
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB008556-19",
+        "tipo": "hbc",
+        "clues": "MCIMB008556",
+        "nombre": "HOSPITAL VALERIO TRUJANO BICENTENARIO",
+        "entidad": "MEXICO",
+        "cluster_id": "19",
+        "cluster_color": "#d8ca41",
+        "ancla_asociado": "MCIMB005225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.02,
+          19.051632
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB012114-19",
+        "tipo": "hbc",
+        "clues": "MCIMB012114",
+        "nombre": "HOSPITAL MUNICIPAL TEMASCALTEPEC",
+        "entidad": "MEXICO",
+        "cluster_id": "19",
+        "cluster_color": "#d8ca41",
+        "ancla_asociado": "MCIMB005225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.967138,
+          18.858986
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB005102-19",
+        "tipo": "hbc",
+        "clues": "MCIMB005102",
+        "nombre": "HOSPITAL JOSÉ MARÍA COSS BICENTENARIO",
+        "entidad": "MEXICO",
+        "cluster_id": "19",
+        "cluster_color": "#d8ca41",
+        "ancla_asociado": "MCIMB005225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.942142,
+          18.925803
+        ]
+      },
+      "properties": {
+        "id": "hbc-MCIMB006275-19",
+        "tipo": "hbc",
+        "clues": "MCIMB006275",
+        "nombre": "HOSPITAL JUAN ALDAMA BICENTENARIO",
+        "entidad": "MEXICO",
+        "cluster_id": "19",
+        "cluster_color": "#d8ca41",
+        "ancla_asociado": "MCIMB005225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.440731,
+          20.062166
+        ]
+      },
+      "properties": {
+        "id": "ancla-HGIMB005005-18",
+        "tipo": "ancla",
+        "clues": "HGIMB005005",
+        "nombre": "HOSPITAL GENERAL DE TULANCINGO",
+        "entidad": "HIDALGO",
+        "cluster_id": "18",
+        "cluster_color": "#d8bd41",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4834847,
+          20.5367515
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB001922-18",
+        "tipo": "hbc",
+        "clues": "VZIMB001922",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE  HUAYACOCOTLA",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "18",
+        "cluster_color": "#d8bd41",
+        "ancla_asociado": "HGIMB005005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1575433126995,
+          20.2778678066965
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB007305-18",
+        "tipo": "hbc",
+        "clues": "PLIMB007305",
+        "nombre": "HOSPITAL COMUNITARIO PAHUATLÁN DE VALLE",
+        "entidad": "PUEBLA",
+        "cluster_id": "18",
+        "cluster_color": "#d8bd41",
+        "ancla_asociado": "HGIMB005005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.203297,
+          20.394981
+        ]
+      },
+      "properties": {
+        "id": "hbc-HGIMB002572-18",
+        "tipo": "hbc",
+        "clues": "HGIMB002572",
+        "nombre": "HOSPITAL REGIONAL OTOMI TEPEHUA",
+        "entidad": "HIDALGO",
+        "cluster_id": "18",
+        "cluster_color": "#d8bd41",
+        "ancla_asociado": "HGIMB005005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4237,
+          21.1046
+        ]
+      },
+      "properties": {
+        "id": "ancla-HGIMB004812-17",
+        "tipo": "ancla",
+        "clues": "HGIMB004812",
+        "nombre": "HOSPITAL GENERAL DE LA HUASTECA",
+        "entidad": "HIDALGO",
+        "cluster_id": "17",
+        "cluster_color": "#d8b141",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.653302,
+          20.998835
+        ]
+      },
+      "properties": {
+        "id": "hbc-HGIMB004795-17",
+        "tipo": "hbc",
+        "clues": "HGIMB004795",
+        "nombre": "HOSPITAL INTEGRAL DE TLANCHINOL",
+        "entidad": "HIDALGO",
+        "cluster_id": "17",
+        "cluster_color": "#d8b141",
+        "ancla_asociado": "HGIMB004812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.75067,
+          21.27728
+        ]
+      },
+      "properties": {
+        "id": "hbc-SPIMB001063-17",
+        "tipo": "hbc",
+        "clues": "SPIMB001063",
+        "nombre": "HOSPITAL COMUNITARIO TAMAZUNCHALE",
+        "entidad": "SAN LUIS POTOSI",
+        "cluster_id": "17",
+        "cluster_color": "#d8b141",
+        "ancla_asociado": "HGIMB004812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3954464,
+          21.5190057
+        ]
+      },
+      "properties": {
+        "id": "hbc-VZIMB004710-17",
+        "tipo": "hbc",
+        "clues": "VZIMB004710",
+        "nombre": "HOSPITAL DE LA COMUNIDAD  DE TEMPOAL",
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "cluster_id": "17",
+        "cluster_color": "#d8b141",
+        "ancla_asociado": "HGIMB004812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.155446,
+          20.433787
+        ]
+      },
+      "properties": {
+        "id": "ancla-HGIMB001481-16",
+        "tipo": "ancla",
+        "clues": "HGIMB001481",
+        "nombre": "HOSPITAL GENERAL DEL VALLE DEL MEZQUITAL IXMIQUILPAN",
+        "entidad": "HIDALGO",
+        "cluster_id": "16",
+        "cluster_color": "#d8a441",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.33337,
+          20.69099
+        ]
+      },
+      "properties": {
+        "id": "hbc-HGIMB004561-16",
+        "tipo": "hbc",
+        "clues": "HGIMB004561",
+        "nombre": "HOSPITAL ZIMAPÁN",
+        "entidad": "HIDALGO",
+        "cluster_id": "16",
+        "cluster_color": "#d8a441",
+        "ancla_asociado": "HGIMB001481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194832,
+          21.010408
+        ]
+      },
+      "properties": {
+        "id": "hbc-HGIMB001686-16",
+        "tipo": "hbc",
+        "clues": "HGIMB001686",
+        "nombre": "HOSPITAL INTEGRAL JACALA",
+        "entidad": "HIDALGO",
+        "cluster_id": "16",
+        "cluster_color": "#d8a441",
+        "ancla_asociado": "HGIMB001481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.55466,
+          17.564036
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB010536-14",
+        "tipo": "ancla",
+        "clues": "GRIMB010536",
+        "nombre": "HOSPITAL IMSS BIENESTAR TLAPA",
+        "entidad": "GUERRERO",
+        "cluster_id": "14",
+        "cluster_color": "#d88b41",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5621538,
+          17.8114203
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB010285-14",
+        "tipo": "hbc",
+        "clues": "GRIMB010285",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE HUAMUXTITLÁN",
+        "entidad": "GUERRERO",
+        "cluster_id": "14",
+        "cluster_color": "#d88b41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.55466,
+          17.564036
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB010536-15",
+        "tipo": "ancla",
+        "clues": "GRIMB010536",
+        "nombre": "HOSPITAL IMSS BIENESTAR TLAPA",
+        "entidad": "GUERRERO",
+        "cluster_id": "15",
+        "cluster_color": "#d89841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.386919,
+          17.468739
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB000934-15",
+        "tipo": "hbc",
+        "clues": "GRIMB000934",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO ALCOZAUCA DE GUERRERO",
+        "entidad": "GUERRERO",
+        "cluster_id": "15",
+        "cluster_color": "#d89841",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48686,
+          17.908556
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB007712-14",
+        "tipo": "hbc",
+        "clues": "GRIMB007712",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO XOCHIHUEHUETLAN",
+        "entidad": "GUERRERO",
+        "cluster_id": "14",
+        "cluster_color": "#d88b41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.55466,
+          17.564036
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB010536-13",
+        "tipo": "ancla",
+        "clues": "GRIMB010536",
+        "nombre": "HOSPITAL IMSS BIENESTAR TLAPA",
+        "entidad": "GUERRERO",
+        "cluster_id": "13",
+        "cluster_color": "#d87f41",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.779031,
+          17.425325
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB009054-13",
+        "tipo": "hbc",
+        "clues": "GRIMB009054",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE ZAPOTITLÁN TABLAS",
+        "entidad": "GUERRERO",
+        "cluster_id": "13",
+        "cluster_color": "#d87f41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7403215,
+          17.7609192
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB010512-14",
+        "tipo": "hbc",
+        "clues": "GRIMB010512",
+        "nombre": "HOSPITAL COMUNITARIO DE OLINALÁ",
+        "entidad": "GUERRERO",
+        "cluster_id": "14",
+        "cluster_color": "#d88b41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4459988684567,
+          18.0352215017851
+        ]
+      },
+      "properties": {
+        "id": "hbc-PLIMB003093-14",
+        "tipo": "hbc",
+        "clues": "PLIMB003093",
+        "nombre": "HOSPITAL COMUNITARIO TULCINGO DE VALLE",
+        "entidad": "PUEBLA",
+        "cluster_id": "14",
+        "cluster_color": "#d88b41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2227641,
+          17.6637331
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB008190-15",
+        "tipo": "hbc",
+        "clues": "OCIMB008190",
+        "nombre": "HC TAMAZOLA",
+        "entidad": "OAXACA",
+        "cluster_id": "15",
+        "cluster_color": "#d89841",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.66884,
+          17.243397
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB004574-13",
+        "tipo": "hbc",
+        "clues": "GRIMB004574",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO MALINALTEPEC",
+        "entidad": "GUERRERO",
+        "cluster_id": "13",
+        "cluster_color": "#d87f41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.907693,
+          17.329127
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB008120-13",
+        "tipo": "hbc",
+        "clues": "GRIMB008120",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO ACATEPEC",
+        "entidad": "GUERRERO",
+        "cluster_id": "13",
+        "cluster_color": "#d87f41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.748244,
+          17.259172
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB009491-13",
+        "tipo": "hbc",
+        "clues": "GRIMB009491",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE TLACOAPA",
+        "entidad": "GUERRERO",
+        "cluster_id": "13",
+        "cluster_color": "#d87f41",
+        "ancla_asociado": "GRIMB010536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.520921,
+          17.605384
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB008931-11",
+        "tipo": "ancla",
+        "clues": "GRIMB008931",
+        "nombre": "HOSPITAL GENERAL DR. RAYMUNDO ABARCA ALARCÓN",
+        "entidad": "GUERRERO",
+        "cluster_id": "11",
+        "cluster_color": "#d86641",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.530989,
+          17.653625
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB007980-11",
+        "tipo": "hbc",
+        "clues": "GRIMB007980",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO ZUMPANGO JOSÉ PONIENTE",
+        "entidad": "GUERRERO",
+        "cluster_id": "11",
+        "cluster_color": "#d86641",
+        "ancla_asociado": "GRIMB008931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.520921,
+          17.605384
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB008931-12",
+        "tipo": "ancla",
+        "clues": "GRIMB008931",
+        "nombre": "HOSPITAL GENERAL DR. RAYMUNDO ABARCA ALARCÓN",
+        "entidad": "GUERRERO",
+        "cluster_id": "12",
+        "cluster_color": "#d87241",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.404849,
+          17.561281
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB006983-12",
+        "tipo": "hbc",
+        "clues": "GRIMB006983",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO TIXTLA DE GUERRERO",
+        "entidad": "GUERRERO",
+        "cluster_id": "12",
+        "cluster_color": "#d87241",
+        "ancla_asociado": "GRIMB008931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.835109,
+          17.651278
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB004562-11",
+        "tipo": "hbc",
+        "clues": "GRIMB004562",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO FILO DE CABALLOS",
+        "entidad": "GUERRERO",
+        "cluster_id": "11",
+        "cluster_color": "#d86641",
+        "ancla_asociado": "GRIMB008931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.97987,
+          17.786453
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB003705-11",
+        "tipo": "hbc",
+        "clues": "GRIMB003705",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO TLACOTEPEC",
+        "entidad": "GUERRERO",
+        "cluster_id": "11",
+        "cluster_color": "#d86641",
+        "ancla_asociado": "GRIMB008931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.245531,
+          17.413819
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB005566-12",
+        "tipo": "hbc",
+        "clues": "GRIMB005566",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO QUECHULTENANGO",
+        "entidad": "GUERRERO",
+        "cluster_id": "12",
+        "cluster_color": "#d87241",
+        "ancla_asociado": "GRIMB008931"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.82064,
+          16.930872
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB008926-10",
+        "tipo": "ancla",
+        "clues": "GRIMB008926",
+        "nombre": "HOSPITAL GENERAL DE ACAPULCO",
+        "entidad": "GUERRERO",
+        "cluster_id": "10",
+        "cluster_color": "#d85941",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.0763735,
+          16.9996499
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB010290-10",
+        "tipo": "hbc",
+        "clues": "GRIMB010290",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE COYUCA DE BENITEZ",
+        "entidad": "GUERRERO",
+        "cluster_id": "10",
+        "cluster_color": "#d85941",
+        "ancla_asociado": "GRIMB008926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.39172,
+          16.7923339
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB009030-10",
+        "tipo": "hbc",
+        "clues": "GRIMB009030",
+        "nombre": "HOSPITAL DE LA COMUNIDAD SAN MARCOS",
+        "entidad": "GUERRERO",
+        "cluster_id": "10",
+        "cluster_color": "#d85941",
+        "ancla_asociado": "GRIMB008926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4334379,
+          16.6892626
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB005163-9",
+        "tipo": "ancla",
+        "clues": "GRIMB005163",
+        "nombre": "HOSPITAL GENERAL OMETEPEC",
+        "entidad": "GUERRERO",
+        "cluster_id": "9",
+        "cluster_color": "#d8414d",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.414088,
+          16.480389
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB002812-9",
+        "tipo": "hbc",
+        "clues": "GRIMB002812",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO CUAJINICUILAPA",
+        "entidad": "GUERRERO",
+        "cluster_id": "9",
+        "cluster_color": "#d8414d",
+        "ancla_asociado": "GRIMB005163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.245919,
+          16.784099
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB007753-9",
+        "tipo": "hbc",
+        "clues": "GRIMB007753",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO XOCHISTLÁHUACA",
+        "entidad": "GUERRERO",
+        "cluster_id": "9",
+        "cluster_color": "#d8414d",
+        "ancla_asociado": "GRIMB005163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.987965,
+          16.6079
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB002170-9",
+        "tipo": "hbc",
+        "clues": "GRIMB002170",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO COPALA",
+        "entidad": "GUERRERO",
+        "cluster_id": "9",
+        "cluster_color": "#d8414d",
+        "ancla_asociado": "GRIMB005163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.523603,
+          18.344546
+        ]
+      },
+      "properties": {
+        "id": "ancla-GRIMB004096-8",
+        "tipo": "ancla",
+        "clues": "GRIMB004096",
+        "nombre": "DR. JORGE SOBERON ACEVEDO",
+        "entidad": "GUERRERO",
+        "cluster_id": "8",
+        "cluster_color": "#d84159",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.542942,
+          17.9974786
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB006930-8",
+        "tipo": "hbc",
+        "clues": "GRIMB006930",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO XALITLA",
+        "entidad": "GUERRERO",
+        "cluster_id": "8",
+        "cluster_color": "#d84159",
+        "ancla_asociado": "GRIMB004096"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.869639,
+          18.355843
+        ]
+      },
+      "properties": {
+        "id": "hbc-GRIMB009906-8",
+        "tipo": "hbc",
+        "clues": "GRIMB009906",
+        "nombre": "HOSPITAL DE LA COMUNIDAD DE TELOLOAPAN GRO.",
+        "entidad": "GUERRERO",
+        "cluster_id": "8",
+        "cluster_color": "#d84159",
+        "ancla_asociado": "GRIMB004096"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.652269,
+          16.723703
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB005500-7",
+        "tipo": "ancla",
+        "clues": "CSIMB005500",
+        "nombre": "HOSPITAL DE LAS CULTURAS SAN CRISTOBAL DE LAS CASAS",
+        "entidad": "CHIAPAS",
+        "cluster_id": "7",
+        "cluster_color": "#d8418b",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.377345,
+          16.365531
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB003704-7",
+        "tipo": "hbc",
+        "clues": "CSIMB003704",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO LAS ROSAS",
+        "entidad": "CHIAPAS",
+        "cluster_id": "7",
+        "cluster_color": "#d8418b",
+        "ancla_asociado": "CSIMB005500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.69619,
+          16.782468
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB006125-7",
+        "tipo": "hbc",
+        "clues": "CSIMB006125",
+        "nombre": "H. B. C. DE SAN JUAN CHAMULA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "7",
+        "cluster_color": "#d8418b",
+        "ancla_asociado": "CSIMB005500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.652269,
+          16.723703
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB005500-6",
+        "tipo": "ancla",
+        "clues": "CSIMB005500",
+        "nombre": "HOSPITAL DE LAS CULTURAS SAN CRISTOBAL DE LAS CASAS",
+        "entidad": "CHIAPAS",
+        "cluster_id": "6",
+        "cluster_color": "#9c41d8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.475661,
+          16.554808
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB005495-6",
+        "tipo": "hbc",
+        "clues": "CSIMB005495",
+        "nombre": "H. B. C. DE TEOPISCA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "6",
+        "cluster_color": "#9c41d8",
+        "ancla_asociado": "CSIMB005500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7148789,
+          16.8790716
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB004713-6",
+        "tipo": "hbc",
+        "clues": "CSIMB004713",
+        "nombre": "H. B. C. DE LARRAINZAR",
+        "entidad": "CHIAPAS",
+        "cluster_id": "6",
+        "cluster_color": "#9c41d8",
+        "ancla_asociado": "CSIMB005500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.343531,
+          16.790454
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB006113-7",
+        "tipo": "hbc",
+        "clues": "CSIMB006113",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO DE OXCHUC",
+        "entidad": "CHIAPAS",
+        "cluster_id": "7",
+        "cluster_color": "#d8418b",
+        "ancla_asociado": "CSIMB005500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.6199078,
+          16.9578883
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB005536-6",
+        "tipo": "hbc",
+        "clues": "CSIMB005536",
+        "nombre": "H. B. C. DE CHALCHIHUITÁN",
+        "entidad": "CHIAPAS",
+        "cluster_id": "6",
+        "cluster_color": "#9c41d8",
+        "ancla_asociado": "CSIMB005500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.33807,
+          17.178397
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB003675-5",
+        "tipo": "ancla",
+        "clues": "CSIMB003675",
+        "nombre": "HOSPITAL GENERAL YAJALÓN \"DR. JOSE MANUEL VELASCO SILES\"",
+        "entidad": "CHIAPAS",
+        "cluster_id": "5",
+        "cluster_color": "#416ed8",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.42834,
+          17.313151
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB002683-5",
+        "tipo": "hbc",
+        "clues": "CSIMB002683",
+        "nombre": "H. B. C. DE TILA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "5",
+        "cluster_color": "#416ed8",
+        "ancla_asociado": "CSIMB003675"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.719602,
+          17.134392
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB003692-5",
+        "tipo": "hbc",
+        "clues": "CSIMB003692",
+        "nombre": "HOSPITAL BASICO COMUNITARIO SIMOJOVEL",
+        "entidad": "CHIAPAS",
+        "cluster_id": "5",
+        "cluster_color": "#416ed8",
+        "ancla_asociado": "CSIMB003675"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.191479,
+          16.370761
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB003500-28",
+        "tipo": "hbc",
+        "clues": "OCIMB003500",
+        "nombre": "HC SAN PEDRO TAPANATEPEC",
+        "entidad": "OAXACA",
+        "cluster_id": "28",
+        "cluster_color": "#6ad841",
+        "ancla_asociado": "OCIMB007625"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.120601,
+          17.514011
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB001884-4",
+        "tipo": "ancla",
+        "clues": "CSIMB001884",
+        "nombre": "HOSPITAL GENERAL PICHUCALCO",
+        "entidad": "CHIAPAS",
+        "cluster_id": "4",
+        "cluster_color": "#41d8b9",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.017017,
+          17.255878
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB004643-4",
+        "tipo": "hbc",
+        "clues": "CSIMB004643",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO, TAPILULA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "4",
+        "cluster_color": "#41d8b9",
+        "ancla_asociado": "CSIMB001884"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.335205,
+          17.407516
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB005891-4",
+        "tipo": "hbc",
+        "clues": "CSIMB005891",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO OSTUACAN, CHIAPAS",
+        "entidad": "CHIAPAS",
+        "cluster_id": "4",
+        "cluster_color": "#41d8b9",
+        "ancla_asociado": "CSIMB001884"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.988442,
+          17.507697
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB001732-3",
+        "tipo": "ancla",
+        "clues": "CSIMB001732",
+        "nombre": "HOSPITAL GENERAL PALENQUE",
+        "entidad": "CHIAPAS",
+        "cluster_id": "3",
+        "cluster_color": "#51d841",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4195,
+          17.0232
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB004725-3",
+        "tipo": "hbc",
+        "clues": "CSIMB004725",
+        "nombre": "H. B. C. DE SANTO DOMINGO",
+        "entidad": "CHIAPAS",
+        "cluster_id": "3",
+        "cluster_color": "#51d841",
+        "ancla_asociado": "CSIMB001732"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.338727,
+          17.552807
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB002152-3",
+        "tipo": "hbc",
+        "clues": "CSIMB002152",
+        "nombre": "HOSPITAL BÁSICO COMUNITARIO SALTO DE AGUA",
+        "entidad": "CHIAPAS",
+        "cluster_id": "3",
+        "cluster_color": "#51d841",
+        "ancla_asociado": "CSIMB001732"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.884075,
+          18.906326
+        ]
+      },
+      "properties": {
+        "id": "ancla-CMIMB000844-2",
+        "tipo": "ancla",
+        "clues": "CMIMB000844",
+        "nombre": "HOSPITAL GENERAL TECOMÁN DR. JOSÉ F. RIVAS GUZMÁN",
+        "entidad": "COLIMA",
+        "cluster_id": "2",
+        "cluster_color": "#d8d641",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.6633867,
+          18.7033718
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB000353-2",
+        "tipo": "hbc",
+        "clues": "MNIMB000353",
+        "nombre": "HOSPITAL INTEGRAL COAHUAYANA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "2",
+        "cluster_color": "#d8d641",
+        "ancla_asociado": "CMIMB000844"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.348241,
+          18.27418
+        ]
+      },
+      "properties": {
+        "id": "hbc-MNIMB003993-2",
+        "tipo": "hbc",
+        "clues": "MNIMB003993",
+        "nombre": "HOSPITAL COMUNITARIO MARUATA",
+        "entidad": "MICHOACAN DE OCAMPO",
+        "cluster_id": "2",
+        "cluster_color": "#d8d641",
+        "ancla_asociado": "CMIMB000844"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.744511,
+          18.604526
+        ]
+      },
+      "properties": {
+        "id": "ancla-CCIMB001531-1",
+        "tipo": "ancla",
+        "clues": "CCIMB001531",
+        "nombre": "HOSPITAL GENERAL DE ESCARCEGA DR. JANELL ROMERO AGUILAR",
+        "entidad": "CAMPECHE",
+        "cluster_id": "1",
+        "cluster_color": "#d84d41",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8477,
+          19.754378
+        ]
+      },
+      "properties": {
+        "id": "hbc-CCIMB000831-1",
+        "tipo": "hbc",
+        "clues": "CCIMB000831",
+        "nombre": "HOSPITAL  COMUNITARIO DE  HOPELCHEN",
+        "entidad": "CAMPECHE",
+        "cluster_id": "1",
+        "cluster_color": "#d84d41",
+        "ancla_asociado": "CCIMB001531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.175034,
+          18.968286
+        ]
+      },
+      "properties": {
+        "id": "hbc-CCIMB000966-1",
+        "tipo": "hbc",
+        "clues": "CCIMB000966",
+        "nombre": "HOSPITAL DE SABANCUY",
+        "entidad": "CAMPECHE",
+        "cluster_id": "1",
+        "cluster_color": "#d84d41",
+        "ancla_asociado": "CCIMB001531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.037132,
+          18.18522
+        ]
+      },
+      "properties": {
+        "id": "hbc-CCIMB000674-1",
+        "tipo": "hbc",
+        "clues": "CCIMB000674",
+        "nombre": "HOSPITAL COMUNITARIO DE CANDELARIA",
+        "entidad": "CAMPECHE",
+        "cluster_id": "1",
+        "cluster_color": "#d84d41",
+        "ancla_asociado": "CCIMB001531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.839587,
+          31.0232256
+        ]
+      },
+      "properties": {
+        "id": "ancla-BCIMB000623-0",
+        "tipo": "ancla",
+        "clues": "BCIMB000623",
+        "nombre": "HOSPITAL COMUNITARIO SAN FELIPE",
+        "entidad": "BAJA CALIFORNIA",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.839587,
+          31.0232256
+        ]
+      },
+      "properties": {
+        "id": "hbc-BCIMB000623-0",
+        "tipo": "hbc",
+        "clues": "BCIMB000623",
+        "nombre": "HOSPITAL COMUNITARIO SAN FELIPE",
+        "entidad": "BAJA CALIFORNIA",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": "BCIMB000623"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.364822093065,
+          26.007155074491
+        ]
+      },
+      "properties": {
+        "id": "ancla-BSIMB000503-0",
+        "tipo": "ancla",
+        "clues": "BSIMB000503",
+        "nombre": "HOSPITAL COMUNITARIO DE LORETO",
+        "entidad": "BAJA CALIFORNIA SUR",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.364822093065,
+          26.007155074491
+        ]
+      },
+      "properties": {
+        "id": "hbc-BSIMB000503-0",
+        "tipo": "hbc",
+        "clues": "BSIMB000503",
+        "nombre": "HOSPITAL COMUNITARIO DE LORETO",
+        "entidad": "BAJA CALIFORNIA SUR",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": "BSIMB000503"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.717135,
+          15.872427
+        ]
+      },
+      "properties": {
+        "id": "ancla-CSIMB000151-0",
+        "tipo": "ancla",
+        "clues": "CSIMB000151",
+        "nombre": "H. B. C. DE ÁNGEL ALBINO CORZO",
+        "entidad": "CHIAPAS",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.717135,
+          15.872427
+        ]
+      },
+      "properties": {
+        "id": "hbc-CSIMB000151-0",
+        "tipo": "hbc",
+        "clues": "CSIMB000151",
+        "nombre": "H. B. C. DE ÁNGEL ALBINO CORZO",
+        "entidad": "CHIAPAS",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": "CSIMB000151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.570828,
+          17.024463
+        ]
+      },
+      "properties": {
+        "id": "ancla-OCIMB000350-0",
+        "tipo": "ancla",
+        "clues": "OCIMB000350",
+        "nombre": "HC HOSPITAL INTEGRAL COMUNITARIO CHALCATONGO",
+        "entidad": "OAXACA",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.570828,
+          17.024463
+        ]
+      },
+      "properties": {
+        "id": "hbc-OCIMB000350-0",
+        "tipo": "hbc",
+        "clues": "OCIMB000350",
+        "nombre": "HC HOSPITAL INTEGRAL COMUNITARIO CHALCATONGO",
+        "entidad": "OAXACA",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": "OCIMB000350"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.070762,
+          26.389622
+        ]
+      },
+      "properties": {
+        "id": "ancla-TSIMB003483-0",
+        "tipo": "ancla",
+        "clues": "TSIMB003483",
+        "nombre": "HOSPITAL INTEGRAL MIGUEL ALEMÁN",
+        "entidad": "TAMAULIPAS",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.070762,
+          26.389622
+        ]
+      },
+      "properties": {
+        "id": "hbc-TSIMB003483-0",
+        "tipo": "hbc",
+        "clues": "TSIMB003483",
+        "nombre": "HOSPITAL INTEGRAL MIGUEL ALEMÁN",
+        "entidad": "TAMAULIPAS",
+        "cluster_id": "0",
+        "cluster_color": "#d84141",
+        "ancla_asociado": "TSIMB003483"
+      }
+    }
+  ]
+}
